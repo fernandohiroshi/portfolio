@@ -1,6 +1,10 @@
-import type { Metadata } from 'next'
-import { Raleway } from 'next/font/google'
 import './globals.css'
+import { Raleway } from 'next/font/google'
+import { Metadata } from 'next/types'
+import { Toaster } from 'react-hot-toast'
+
+import { ThemeProvider } from '@/components/theme/provider'
+import Header from '@/components/view/header/Header'
 
 const raleway = Raleway({ subsets: ['latin'] })
 
@@ -58,15 +62,20 @@ export const metadata: Metadata = {
     icon: 'https://imgix.cosmicjs.com/503b4b60-749f-11ef-98d9-cbcb72f3073e-logo.png',
   },
 }
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={`${raleway.className} antialiased`}>{children}</body>
+    <html lang="en" suppressHydrationWarning className="!scroll-smooth">
+      <body className={`${raleway.className} antialiased`}>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+          <Header />
+          {children}
+        </ThemeProvider>
+        <Toaster position="top-right" />
+      </body>
     </html>
   )
 }
