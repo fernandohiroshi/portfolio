@@ -21,7 +21,7 @@ const News = () => {
     {
       image: 'https://imgix.cosmicjs.com/3d281af0-808c-11ef-beb8-f3894cda4d77-onebitcode.png',
       url: 'https://onebitcode.com/',
-      description: "I've started the React Native course at OneBitCode to enhance my skills.",
+      description: 'Cursing Fullstack at OneBitCode, focusing on SQL, Prisma, Node.js, MongoDB, and Express.js.',
     },
     {
       image: 'https://imgix.cosmicjs.com/6b038fb0-8071-11ef-beb8-f3894cda4d77-nextjs-udemy.jpg',
