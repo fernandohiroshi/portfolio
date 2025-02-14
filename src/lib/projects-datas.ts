@@ -16,6 +16,14 @@ export const projects = [
     liveBtn: true,
   },
   {
+    img: 'https://imgix.cosmicjs.com/bf248fc0-ead6-11ef-af71-9552422268b6-dr-hair-profile.png',
+    name: 'dr hair clinic',
+    code: '',
+    live: 'https://drhairtransplantecapilar.com.br/',
+    codeBtn: false,
+    liveBtn: true,
+  },
+  {
     img: 'https://imgix.cosmicjs.com/97b5d5e0-ae39-11ef-8a63-eb57d6c77a36-profilesite.png',
     name: 'carolinesouza.art',
     code: 'https://github.com/fernandohiroshi/carolinesouza',
