@@ -1,81 +1,90 @@
 # Portfolio - Fernando Hiroshi
 
-This is the repository for my personal portfolio, developed to showcase my skills as a front-end developer. I use modern technologies and best development practices to deliver a high-quality experience.
+A modern, responsive personal portfolio showcasing my front-end development skills and projects through clean design and cutting-edge technologies.
 
 ![Portfolio Preview](https://cdn.cosmicjs.com/c07f4730-80fe-11ef-9257-112b43bd2f70-Macbook-Air-fernandohiroshi.com.png)
 
-> **Notice**: This project is protected by copyright. Any use or copying of this code without proper authorization is prohibited.
+> **Notice**: This project is protected by copyright. Any unauthorized use or reproduction of this code is prohibited.
 
-To get started, just clone the repository and run `npm install && npm run dev`:
+## Getting Started
 
-    git clone https://github.com/fernandohiroshi/portfolio.git
-    npm install
-    npm run dev
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/fernandohiroshi/portfolio.git
+cd portfolio
+npm install
+npm run dev
+```
 
 ## Table of Contents
 
-1. [Technologies Used](#technologies-used)
-2. [Additional Features](#additional-features)
-3. [Code Formatting](#code-formatting)
+1. [Core Technologies](#core-technologies)
+2. [UI & Design](#ui--design)
+3. [Development Tools](#development-tools)
 4. [Project Structure](#project-structure)
-5. [Responsiveness](#responsiveness)
+5. [Features](#features)
+6. [Responsive Design](#responsive-design)
+7. [Live Demo](#live-demo)
 
-## Technologies Used
+## Core Technologies
 
-- [Next.js](https://nextjs.org)
-- [Tailwind CSS](https://tailwindcss.com)
-- [TypeScript](https://www.typescriptlang.org)
-- [Shadcn UI](https://ui.shadcn.dev)
-- [Radix UI](https://www.radix-ui.com) (Dropdown Menu, Icons)
-- [Lucide Icons](https://lucide.dev) (Icons)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Next Themes](https://github.com/pacocoursey/next-themes)
-- [EmailJS](https://www.emailjs.com)
-- Bento Box Design Style (no link)
+- [Next.js](https://nextjs.org) - React framework for production
+- [TypeScript](https://www.typescriptlang.org) - Static type checking
+- [Tailwind CSS](https://tailwindcss.com) - Utility-first CSS framework
 
-## Additional Features
+## UI & Design
 
-In addition to the core technologies, I also used:
+- [Shadcn UI](https://ui.shadcn.dev) - Beautifully designed components
+- [Radix UI](https://www.radix-ui.com) - Unstyled, accessible UI primitives
+- [Lucide Icons](https://lucide.dev) - Beautiful & consistent icons
+- [Framer Motion](https://www.framer.com/motion/) - Animation library
+- [Next Themes](https://github.com/pacocoursey/next-themes) - Theme management
+- Bento Box Design Style - Modern layout approach
 
-- [React Hot Toast](https://react-hot-toast.com/) for notifications.
-- [Recharts](https://recharts.org/) for creating interactive and customizable charts.
+## Development Tools
 
-## Code Formatting
-
-To ensure well-organized and standardized code, I used a custom configuration of Prettier, ESLint, and Tailwind Sorter. Libraries such as `class-variance-authority` and `tailwind-merge` were used to efficiently handle and organize CSS classes.
+- [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/) - Code quality and formatting
+- [Tailwind Sorter](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) - Class organization
+- [class-variance-authority](https://cva.style/docs) - Component variant management
+- [tailwind-merge](https://github.com/dcastil/tailwind-merge) - Merge Tailwind CSS classes without conflicts
 
 ## Project Structure
-
-Below is the basic folder structure of the project:
 
 ```bash
 src
 ├── app
-│   ├── layout.tsx
-│   ├── page.tsx
-│   └── globals.css
+│   ├── layout.tsx   # Main layout wrapper
+│   ├── page.tsx     # Homepage component
+│   └── globals.css  # Global styles
 ├── components
-│   ├── theme
-│   ├── ui
-│   ├── view
-│   │   ├── header
-│   │   ├── feature
-│   │   └── footer
-├── lib
+│   ├── theme        # Theme-related components
+│   ├── ui           # Reusable UI components
+│   ├── view         # Page-specific components
+│   │   ├── header   # Navigation components
+│   │   ├── feature  # Feature sections
+│   │   └── footer   # Footer components
+├── lib              # Utility functions and helpers
 ```
 
-## Responsiveness
+## Features
 
-![Portfolio Preview](https://cdn.cosmicjs.com/bc467f80-80fe-11ef-9257-112b43bd2f70-iPhone-13-PRO-fernandohiroshi.com.png)
+- **Interactive UI** - Dynamic and engaging user interface
+- **Dark/Light Mode** - Seamless theme switching
+- **Notifications** - Using [React Hot Toast](https://react-hot-toast.com/)
+- **Data Visualization** - Interactive charts with [Recharts](https://recharts.org/)
+- **Contact Form** - Integrated with [EmailJS](https://www.emailjs.com)
 
-The project is fully responsive and works perfectly on:
+## Responsive Design
 
-- **Desktop**
-- **Tablet**
-- **Mobile**
+The portfolio is fully optimized for all device sizes:
 
-## Deploy
+- **Desktop** - Full-featured experience
+- **Tablet** - Adapted layout for medium screens
+- **Mobile** - Streamlined interface for small screens
 
-The project is deployed and can be accessed at:
+![Mobile View](https://cdn.cosmicjs.com/bc467f80-80fe-11ef-9257-112b43bd2f70-iPhone-13-PRO-fernandohiroshi.com.png)
 
-[Live Demo](https://fernandohiroshi.com/)
+## Live Demo
+
+Experience the portfolio live at [fernandohiroshi.com](https://fernandohiroshi.com/)

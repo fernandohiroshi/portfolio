@@ -1,5 +1,13 @@
 export const projects = [
   {
+    img: 'https://imgix.cosmicjs.com/943a8210-1c27-11f0-89bb-33da281fd3f1-Macbook-Air-viptechstore-vercel-app.png',
+    name: 'Vip Tech Store',
+    code: 'https://github.com/fernandohiroshi/viptech-store',
+    live: 'https://viptechstore.vercel.app/',
+    codeBtn: true,
+    liveBtn: true,
+  },
+  {
     img: 'https://imgix.cosmicjs.com/b1e6b4b0-80fe-11ef-9257-112b43bd2f70-Macbook-Air-konbinicode.com.png',
     name: 'Konbini Code',
     code: 'https://github.com/fernandohiroshi/konbini-code',

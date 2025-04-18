@@ -7,14 +7,15 @@ const About = () => {
         About me:
       </h2>
       <p className="text-justify text-xs text-foreground opacity-80 lg:text-sm">
-        I&apos;m Fernando Hiroshi, a web developer with 2+ years of experience specializing in front-end development
-        with TypeScript, Next.js, and Tailwind CSS. I founded Konbini Web, a company focused on creating modern,
-        functional websites with a strong design emphasis.
+        Web developer with 3 years of experience, specialized in front-end development with a focus on Next.js, React,
+        Node.js, TypeScript, and Tailwind CSS. Currently improving skills in React Native and back-end (Express, Prisma,
+        PostgreSQL, MongoDB) to offer complete web solutions.
         <br />
         <br />
-        Having lived in Japan for over 10 years, I bring a multicultural perspective and adaptability. I graduated from
-        the Front-End Engineer course at EBAC and am currently enhancing my back-end skills with Node.js, SQL, and
-        Prisma to deliver even more comprehensive web solutions.
+        Founder of Konbini Code, a company focused on creating responsive and functional websites. Constantly studying
+        and staying updated on the latest technologies. With over 10 years of experience in Japan, I bring a
+        multicultural perspective and strong adaptability. My background in hospitality has honed my communication and
+        problem-solving skills, aiding in the development of customized digital solutions.
       </p>
     </Box>
   )
