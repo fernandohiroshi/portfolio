@@ -19,14 +19,28 @@ const News = () => {
 
   const items = [
     {
-      image: 'https://imgix.cosmicjs.com/14c7b950-1c20-11f0-89bb-33da281fd3f1-w1.png',
-      url: 'https://viptechstore.vercel.app/',
-      description: 'My Full-Stack E-commerce Project.',
+      image: 'https://imgix.cosmicjs.com/0e8d01f0-1ea3-11f0-a02d-35f96889065d-solyd.jpeg',
+      url: 'https://solyd.com.br/',
+      description:
+        'Started the best Offensive Security specialization in Latin America, focusing on ethical hacking and pentesting.',
     },
     {
-      image: 'https://imgix.cosmicjs.com/dc657120-1c37-11f0-89bb-33da281fd3f1-Screenshot-from-2025-04-18-06-30-38.png',
-      url: 'https://maps.app.goo.gl/f1iLCS9xPXjac7mE8',
-      description: 'Trip to Embalse El Yeso - Cajón Del Maipo - Chile 🇨🇱',
+      image: 'https://imgix.cosmicjs.com/3d281af0-808c-11ef-beb8-f3894cda4d77-onebitcode.png',
+      url: 'https://onebitcode.com/',
+      description:
+        'Completed Full Stack JavaScript specialization with practical experience in Node.js, Prisma, and databases.',
+    },
+    {
+      image: 'https://imgix.cosmicjs.com/15ecd330-1ea3-11f0-a02d-35f96889065d-Screenshot-from-2025-04-21-08-15-05.png',
+      url: 'https://ebaconline.com.br/',
+      description:
+        'Certified as Front-End Engineer by EBAC. Specialized in building dynamic, interfaces with React, Vue, and Sass.',
+    },
+    {
+      image: 'https://imgix.cosmicjs.com/6b038fb0-8071-11ef-beb8-f3894cda4d77-nextjs-udemy.jpg',
+      url: 'https://www.udemy.com/course/nextjs-zero-ao-avancado/?couponCode=KEEPLEARNINGBR',
+      description:
+        'Completed "NextJS from Zero to Advanced" specialization, mastering SSR, SSG, ISR, Next Auth, and automated deployment on Vercel.',
     },
   ]
 
