@@ -24,15 +24,27 @@ const Footer = () => {
           Konbini Code
         </a>
 
-        <div className="flex items-center gap-4">
+        <div className="grid grid-cols-2 items-center gap-4 md:grid-cols-4">
           <a href="https://www.instagram.com/fernando_hiroshi/">
-            <Button size="sm" variant="outline">
+            <Button size="sm" variant="outline" className="w-20">
               Instagram
             </Button>
           </a>
           <a href="https://wa.me/5545988311915">
-            <Button size="sm" variant="outline">
+            <Button size="sm" variant="outline" className="w-20">
               Whatsapp
+            </Button>
+          </a>
+
+          <a href="/Curriculum.pdf" download title="Curriculum">
+            <Button size="sm" variant="outline" className="w-20">
+              Curriculum
+            </Button>
+          </a>
+
+          <a href="/履歴書.pdf" download title="履歴書">
+            <Button size="sm" variant="outline" className="w-20">
+              レジュメ
             </Button>
           </a>
         </div>
