@@ -35,18 +35,6 @@ const Footer = () => {
               Whatsapp
             </Button>
           </a>
-
-          <a href="/Curriculum.pdf" download title="Curriculum">
-            <Button size="sm" variant="outline" className="w-20">
-              Curriculum
-            </Button>
-          </a>
-
-          <a href="/履歴書.pdf" download title="履歴書">
-            <Button size="sm" variant="outline" className="w-20">
-              レジュメ
-            </Button>
-          </a>
         </div>
       </div>
 

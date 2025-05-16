@@ -36,12 +36,6 @@ const News = () => {
       description:
         'Certified as Front-End Engineer by EBAC. Specialized in building dynamic, interfaces with React, Vue, and Sass.',
     },
-    {
-      image: 'https://imgix.cosmicjs.com/6b038fb0-8071-11ef-beb8-f3894cda4d77-nextjs-udemy.jpg',
-      url: 'https://www.udemy.com/course/nextjs-zero-ao-avancado/?couponCode=KEEPLEARNINGBR',
-      description:
-        'Completed "NextJS from Zero to Advanced" specialization, mastering SSR, SSG, ISR, Next Auth, and automated deployment on Vercel.',
-    },
   ]
 
   return (
