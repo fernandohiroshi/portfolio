@@ -7,15 +7,15 @@ const About = () => {
         About me:
       </h2>
       <p className="text-justify text-xs text-foreground opacity-80 lg:text-sm">
-        Web developer with 3 years of experience, specialized in front-end development with a focus on Next.js, React,
-        Node.js, TypeScript, and Tailwind CSS. Currently improving skills in React Native and back-end (Express, Prisma,
-        PostgreSQL, MongoDB) to offer complete web solutions.
+        Web Developer with 3 years of experience specializing in front-end technologies like Next.js, React, TypeScript,
+        and Tailwind CSS. Expanding skills in React Native and back-end (Node.js, Express, PostgreSQL, MongoDB, Prisma
+        ORM) to deliver scalable fullstack solutions. Founder of Konbini Code, creating modern, responsive websites from
+        landing pages to micro e-commerces. I manage projects end-to-end, focusing on clean code, performance, and
+        mobile-first design.
         <br />
         <br />
-        Founder of Konbini Code, a company focused on creating responsive and functional websites. Constantly studying
-        and staying updated on the latest technologies. With over 10 years of experience in Japan, I bring a
-        multicultural perspective and strong adaptability. My background in hospitality has honed my communication and
-        problem-solving skills, aiding in the development of customized digital solutions.
+        With over 10 years living in Japan, I bring a multicultural perspective and strong user experience focus. Always
+        curious and learning, staying up to date with the latest technologies.
       </p>
     </Box>
   )

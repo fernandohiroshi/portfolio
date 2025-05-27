@@ -21,19 +21,26 @@ const Form: React.FC = () => {
       email: email,
     }
 
-    emailjs.send('service_1efk0ra', 'template_31o02dx', templatesParams, 'h-IZqL-9pdElK9sbA').then(
-      (response) => {
-        toast.success('Email sent successfully!')
-        setName('')
-        setEmail('')
-        setMessage('')
-        console.log('Email sent successfully!', response)
-      },
-      (error) => {
-        toast.error(error)
-        console.log('ERRO', error)
-      },
-    )
+    emailjs
+      .send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+        templatesParams,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!,
+      )
+      .then(
+        (response) => {
+          toast.success('Email sent successfully!')
+          setName('')
+          setEmail('')
+          setMessage('')
+          console.log('Email sent successfully!', response)
+        },
+        (error) => {
+          toast.error(error)
+          console.log('ERRO', error)
+        },
+      )
   }
 
   return (
