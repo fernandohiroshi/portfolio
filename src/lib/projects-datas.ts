@@ -8,6 +8,14 @@ export const projects = [
     liveBtn: true,
   },
   {
+    img: 'https://imgix.cosmicjs.com/ca087630-5567-11f0-ab4f-6d4320896e26-readme-img01.png',
+    name: 'PlanC',
+    code: 'https://github.com/fernandohiroshi/micro-saas-app',
+    live: 'https://planc-saas.vercel.app/',
+    codeBtn: true,
+    liveBtn: true,
+  },
+  {
     img: 'https://imgix.cosmicjs.com/b1e6b4b0-80fe-11ef-9257-112b43bd2f70-Macbook-Air-konbinicode.com.png',
     name: 'Konbini Code',
     code: 'https://github.com/fernandohiroshi/konbini-code',

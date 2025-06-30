@@ -19,28 +19,26 @@ const News = () => {
 
   const items = [
     {
-      image: 'https://imgix.cosmicjs.com/0e8d01f0-1ea3-11f0-a02d-35f96889065d-solyd.jpeg',
-      url: 'https://solyd.com.br/',
-      description:
-        'Started the best Offensive Security specialization in Latin America, focusing on ethical hacking and pentesting.',
+      image: 'https://imgix.cosmicjs.com/943a8210-1c27-11f0-89bb-33da281fd3f1-Macbook-Air-viptechstore-vercel-app.png',
+      url: 'https://www.viptech.store/',
+      description: 'Developed an e-commerce store focused on technology products, built with modern web technologies.',
     },
     {
-      image: 'https://imgix.cosmicjs.com/3d281af0-808c-11ef-beb8-f3894cda4d77-onebitcode.png',
-      url: 'https://onebitcode.com/',
+      image: 'https://imgix.cosmicjs.com/ca087630-5567-11f0-ab4f-6d4320896e26-readme-img01.png',
+      url: 'https://planc-saas.vercel.app/',
       description:
-        'Completed Full Stack JavaScript specialization with practical experience in Node.js, Prisma, and databases.',
+        'Built a Micro SaaS for clinics including service scheduling, reminders, and subscription management.',
     },
     {
-      image: 'https://imgix.cosmicjs.com/15ecd330-1ea3-11f0-a02d-35f96889065d-Screenshot-from-2025-04-21-08-15-05.png',
-      url: 'https://ebaconline.com.br/',
-      description:
-        'Certified as Front-End Engineer by EBAC. Specialized in building dynamic, interfaces with React, Vue, and Sass.',
+      image: 'https://imgix.cosmicjs.com/97b5d5e0-ae39-11ef-8a63-eb57d6c77a36-profilesite.png',
+      url: 'https://www.carolinesouza.art/',
+      description: 'Created a personal art portfolio website showcasing creative works and projects.',
     },
   ]
 
   return (
     <Box className="col-span-12 md:col-span-6">
-      <h2 className="text-center text-xl font-medium tracking-widest md:text-2xl">Last News</h2>
+      <h2 className="text-center text-xl font-medium tracking-widest md:text-2xl">Latest works</h2>
       <Carousel
         plugins={[plugin.current]}
         className="flex h-full w-full flex-col justify-evenly"
@@ -57,7 +55,7 @@ const News = () => {
                     alt={`Imagem ${index + 1}`}
                     width={500}
                     height={300}
-                    className="h-52 w-full rounded-xl object-cover object-top duration-300 ease-in-out hover:scale-110"
+                    className="h-52 w-full rounded-xl object-contain object-top duration-300 ease-in-out hover:scale-110"
                   />
                 </div>
               </a>

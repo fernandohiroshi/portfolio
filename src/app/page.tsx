@@ -11,7 +11,7 @@ import Skills from '@/components/view/skills/Skills'
 
 export default function Home() {
   return (
-    <main className="mb-8 min-h-screen scroll-mt-24 px-4" id="home">
+    <main className="my-4 min-h-screen scroll-mt-24 px-4" id="home">
       <div className="mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-4">
         <Feature />
         <Avatar />
