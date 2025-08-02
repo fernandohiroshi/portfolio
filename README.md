@@ -73,7 +73,6 @@ src
 - **Dark/Light Mode** - Seamless theme switching
 - **Notifications** - Using [React Hot Toast](https://react-hot-toast.com/)
 - **Data Visualization** - Interactive charts with [Recharts](https://recharts.org/)
-- **Contact Form** - Integrated with [EmailJS](https://www.emailjs.com)
 
 ## Responsive Design
 

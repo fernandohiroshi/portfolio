@@ -21,7 +21,7 @@ const Footer = () => {
             height={32}
             quality={100}
           />
-          Konbini Code
+          Based Iguazu Falls | Tokyo.
         </a>
 
         <div className="grid grid-cols-2 items-center gap-4 md:grid-cols-4">
@@ -41,9 +41,9 @@ const Footer = () => {
       <div className="absolute bottom-2 right-4">
         <a
           href="#"
-          className="inline-flex opacity-80 duration-300 ease-in-out hover:-rotate-45 hover:scale-125 hover:opacity-100"
+          className="inline-flex opacity-80 duration-200 ease-in-out hover:-rotate-45 hover:scale-125 hover:opacity-100"
         >
-          <PiArrowCircleUpRightLight className="animate-pulse text-pink-800 hover:animate-none" size={52} />
+          <PiArrowCircleUpRightLight className="animate-pulse text-pink-800" size={52} />
         </a>
       </div>
     </Box>

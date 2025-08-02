@@ -7,17 +7,14 @@ const About = () => {
         About me:
       </h2>
       <p className="text-justify text-xs text-foreground opacity-80 lg:text-sm">
-        Web Developer and Front-End Engineer specialized in technologies such as Next.js, React, TypeScript, and
-        Tailwind CSS. Continuously refining skills in React Native and back-end development (Node.js, Nest.js,
-        PostgreSQL, MongoDB, Prisma ORM) to deliver scalable and integrated fullstack solutions. Founder of Konbini
-        Code, where I create modern, responsive websites ranging from landing pages to micro e-commerce stores. I manage
-        projects end-to-end with a strong focus on clean code, performance optimization, and mobile-first design
-        principles.
+        Web Developer and Front-End Engineer specialized in Next.js, React, TypeScript, and Tailwind CSS. Currently
+        enhancing skills in back-end (Node.js, Nest.js, PostgreSQL, MongoDB, Prisma) to deliver fullstack solutions.
+        Founder of Konbini Code, creating modern, responsive websites from landing pages to micro e-commerce stores with
+        clean code, performance, and mobile-first design.
         <br />
         <br />
-        With over 10 years living in Japan, I bring a multicultural perspective combined with a deep commitment to
-        delivering excellent user experiences. Always curious and dedicated to continuous learning, I stay up to date
-        with the latest technologies and industry best practices.
+        Having lived over 10 years in Japan, I bring a multicultural perspective and a strong focus on user experience,
+        staying up to date with the latest technologies and best practices.
       </p>
     </Box>
   )

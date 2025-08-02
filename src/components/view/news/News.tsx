@@ -21,24 +21,23 @@ const News = () => {
     {
       image: 'https://imgix.cosmicjs.com/943a8210-1c27-11f0-89bb-33da281fd3f1-Macbook-Air-viptechstore-vercel-app.png',
       url: 'https://www.viptech.store/',
-      description: 'Developed an e-commerce store focused on technology products, built with modern web technologies.',
+      description: 'Tech e-commerce with modern web stack.',
     },
     {
       image: 'https://imgix.cosmicjs.com/ca087630-5567-11f0-ab4f-6d4320896e26-readme-img01.png',
       url: 'https://planc-saas.vercel.app/',
-      description:
-        'Built a Micro SaaS for clinics including service scheduling, reminders, and subscription management.',
+      description: 'Clinic micro-SaaS: scheduling & subscriptions.',
     },
     {
       image: 'https://imgix.cosmicjs.com/97b5d5e0-ae39-11ef-8a63-eb57d6c77a36-profilesite.png',
       url: 'https://www.carolinesouza.art/',
-      description: 'Created a personal art portfolio website showcasing creative works and projects.',
+      description: 'Graphic designer portfolio.',
     },
   ]
 
   return (
     <Box className="col-span-12 md:col-span-6">
-      <h2 className="text-center text-xl font-medium tracking-widest md:text-2xl">Latest works</h2>
+      <h2 className="text-center text-xl font-medium tracking-widest md:text-2xl">Latest updates</h2>
       <Carousel
         plugins={[plugin.current]}
         className="flex h-full w-full flex-col justify-evenly"
@@ -59,7 +58,9 @@ const News = () => {
                   />
                 </div>
               </a>
-              <p className="mt-4 text-center text-xs text-foreground opacity-80 lg:text-sm">{item.description}</p>
+              <p className="mt-4 text-center text-xs text-foreground opacity-80 lg:text-sm">
+                {item.description.length > 100 ? `${item.description.slice(0, 100)}...` : item.description}
+              </p>
             </CarouselItem>
           ))}
         </CarouselContent>
