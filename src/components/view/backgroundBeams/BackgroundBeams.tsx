@@ -6,7 +6,7 @@ import Box from '../bento/Box'
 
 export function BackgroundBeamsSection() {
   return (
-    <Box className="col-span-12 h-full min-h-0 cursor-pointer md:col-span-6">
+    <Box className="col-span-12 h-full cursor-pointer md:col-span-6">
       <a
         href="https://konbinicode.com"
         target="_blank"
