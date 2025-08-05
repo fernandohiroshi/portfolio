@@ -54,11 +54,11 @@ const News = () => {
                     alt={`Imagem ${index + 1}`}
                     width={500}
                     height={300}
-                    className="h-52 w-full rounded-xl object-contain object-top duration-300 ease-in-out hover:scale-110"
+                    className="h-52 w-full rounded-xl object-contain object-top opacity-85 duration-300 ease-in-out hover:scale-90 hover:opacity-100"
                   />
                 </div>
               </a>
-              <p className="mt-4 text-center text-xs text-foreground opacity-80 lg:text-sm">
+              <p className="mt-4 text-center text-xs text-foreground opacity-80">
                 {item.description.length > 100 ? `${item.description.slice(0, 100)}...` : item.description}
               </p>
             </CarouselItem>

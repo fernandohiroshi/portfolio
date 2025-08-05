@@ -12,7 +12,7 @@ const Footer = () => {
         <a
           href="https://konbinicode.com"
           target="_blank"
-          className="inline-flex items-center gap-2 text-2xl duration-300 ease-in-out hover:font-semibold hover:brightness-150"
+          className="inline-flex items-center gap-2 text-lg duration-300 ease-in-out hover:font-semibold hover:brightness-150"
         >
           <Image
             alt="Konbini Web"
