@@ -151,12 +151,4 @@ export const projects = [
     codeBtn: false,
     liveBtn: true,
   },
-  {
-    img: '/projects/restaurante.png',
-    name: 'Restaurante',
-    code: '',
-    live: 'https://konbinicode-restaurante-demo.vercel.app/',
-    codeBtn: false,
-    liveBtn: true,
-  },
 ]
