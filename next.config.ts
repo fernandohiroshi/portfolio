@@ -27,10 +27,7 @@ const securityHeaders = [
 
 const nextConfig: NextConfig = {
   images: {
-    remotePatterns: [
-      { protocol: 'https', hostname: 'imgix.cosmicjs.com' },
-      { protocol: 'https', hostname: 'pbs.twimg.com' },
-    ],
+    remotePatterns: [{ protocol: 'https', hostname: 'pbs.twimg.com' }],
   },
   async headers() {
     return [
