@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     siteName: 'Fernando Hiroshi',
     images: [
       {
-        url: 'https://imgix.cosmicjs.com/06774480-7c8c-11ef-beb8-f3894cda4d77-fernandohiroshiportfolio.png',
+        url: '/imgs/metadata.webp',
         width: 1200,
         height: 630,
         alt: "Overview of Fernando Hiroshi's Portfolio",
@@ -56,10 +56,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Fernando Hiroshi - Portfolio',
     description: 'Web developer showcasing a portfolio that highlights the creation of modern and unique websites.',
-    images: ['https://imgix.cosmicjs.com/06774480-7c8c-11ef-beb8-f3894cda4d77-fernandohiroshiportfolio.png'],
-  },
-  icons: {
-    icon: 'https://imgix.cosmicjs.com/503b4b60-749f-11ef-98d9-cbcb72f3073e-logo.png',
+    images: ['/imgs/metadata.webp'],
   },
 }
 export default function RootLayout({

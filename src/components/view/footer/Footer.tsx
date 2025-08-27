@@ -8,7 +8,7 @@ import Box from '../bento/Box'
 const Footer = () => {
   return (
     <Box className="relative col-span-12 min-h-[14rem] border-none bg-gradient-to-b from-background to-neutral-300 dark:to-neutral-900">
-      <div className="absolute bottom-4 left-4 flex flex-col gap-4">
+      <div className="absolute bottom-4 left-4 flex flex-col gap-4" id="contact">
         <a
           href="https://konbinicode.com"
           target="_blank"

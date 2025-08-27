@@ -21,11 +21,13 @@ const Header = () => {
     >
       <Link href="/#home" title="Logo">
         <Image
-          src="https://imgix.cosmicjs.com/503b4b60-749f-11ef-98d9-cbcb72f3073e-logo.png"
+          src="/imgs/logo.webp"
           alt="Logo"
           width={40}
           height={40}
           className="duration-500 ease-in-out hover:scale-125 hover:brightness-125"
+          priority={true}
+          quality={100}
         />
       </Link>
       <div className="flex items-center gap-2">

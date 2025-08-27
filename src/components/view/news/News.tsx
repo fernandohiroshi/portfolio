@@ -19,19 +19,29 @@ const News = () => {
 
   const items = [
     {
-      image: 'https://imgix.cosmicjs.com/943a8210-1c27-11f0-89bb-33da281fd3f1-Macbook-Air-viptechstore-vercel-app.png',
-      url: 'https://www.viptech.store/',
-      description: 'Tech e-commerce with modern web stack.',
+      image: '/projects/restaurante.webp',
+      url: 'https://konbinicode-restaurante-demo.vercel.app/',
+      description: 'Modern and responsive restaurant website.',
     },
     {
-      image: 'https://imgix.cosmicjs.com/ca087630-5567-11f0-ab4f-6d4320896e26-readme-img01.png',
-      url: 'https://planc-saas.vercel.app/',
-      description: 'Clinic micro-SaaS: scheduling & subscriptions.',
+      image: '/projects/academia.webp',
+      url: 'https://konbinicode-academia-demo.vercel.app/',
+      description: 'Platform for promoting fitness services.',
     },
     {
-      image: 'https://imgix.cosmicjs.com/97b5d5e0-ae39-11ef-8a63-eb57d6c77a36-profilesite.png',
-      url: 'https://www.carolinesouza.art/',
-      description: 'Graphic designer portfolio.',
+      image: '/projects/pousada.webp',
+      url: 'https://konbinicode-pousada-demo.vercel.app/',
+      description: 'Website for showcasing accommodations.',
+    },
+    {
+      image: '/projects/jornalismo.webp',
+      url: 'https://konbinicode-jornalismo-demo.vercel.app/',
+      description: 'Personalized news and articles portal.',
+    },
+    {
+      image: '/projects/tattoo.webp',
+      url: 'https://konbinicode-tattoo-demo.vercel.app/',
+      description: 'Portfolio for tattoo studio.',
     },
   ]
 
@@ -58,7 +68,7 @@ const News = () => {
                   />
                 </div>
               </a>
-              <p className="mt-4 text-center text-xs text-foreground opacity-80">
+              <p className="mt-4 text-center text-sm text-foreground opacity-80">
                 {item.description.length > 100 ? `${item.description.slice(0, 100)}...` : item.description}
               </p>
             </CarouselItem>

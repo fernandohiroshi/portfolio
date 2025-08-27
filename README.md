@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio showcasing my front-end development skills and projects through clean design and cutting-edge technologies.
 
-![Portfolio Preview](https://cdn.cosmicjs.com/c07f4730-80fe-11ef-9257-112b43bd2f70-Macbook-Air-fernandohiroshi.com.png)
+![Portfolio Preview](/public/projects/portfolio.webp)
 
 > **Notice**: This project is protected by copyright. Any unauthorized use or reproduction of this code is prohibited.
 
@@ -82,7 +82,7 @@ The portfolio is fully optimized for all device sizes:
 - **Tablet** - Adapted layout for medium screens
 - **Mobile** - Streamlined interface for small screens
 
-![Mobile View](https://cdn.cosmicjs.com/bc467f80-80fe-11ef-9257-112b43bd2f70-iPhone-13-PRO-fernandohiroshi.com.png)
+![Portfolio Preview](/public/imgs/mobile.webp)
 
 ## Live Demo
 
