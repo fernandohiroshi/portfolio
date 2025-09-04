@@ -1,14 +1,10 @@
-import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Button } from '@/components/ui/shadcn/button'
+import { notFound } from 'next/navigation'
+
 import { certifications } from '@/lib/certifications-data'
 
-type Props = {
-  params: {
-    slug: string
-  }
-}
+import { Button } from '@/components/ui/shadcn/button'
 
 export default async function CertificationPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params

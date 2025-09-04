@@ -1,8 +1,10 @@
 'use client'
 
-import Link from 'next/link'
 import Image from 'next/image'
+import Link from 'next/link'
+
 import { certifications } from '@/lib/certifications-data'
+
 import { Card } from '@/components/ui/shadcn/card'
 
 export default function CertificationsPage() {
