@@ -10,10 +10,15 @@ import { Card } from '@/components/ui/shadcn/card'
 export default function CertificationsPage() {
   return (
     <div className="flex flex-col items-center p-8">
-      <h1 className="mb-6 w-full max-w-4xl text-3xl font-bold">Meus Certificados</h1>
+      <h1 className="mb-6 w-full max-w-4xl text-3xl font-bold">My Certifications</h1>
       <div className="grid w-full max-w-4xl grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
         {certifications.map((cert) => (
-          <Link key={cert.slug} href={`/certifications/${cert.slug}`} className="block h-full" title="Ver Certificado">
+          <Link
+            key={cert.slug}
+            href={`/certifications/${cert.slug}`}
+            className="block h-full"
+            title="View Certification"
+          >
             <Card className="h-full rounded-lg border transition-all duration-200 hover:scale-95 hover:brightness-110">
               <Image
                 src={cert.img}

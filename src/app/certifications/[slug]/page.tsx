@@ -20,7 +20,7 @@ export default async function CertificationPage({ params }: { params: Promise<{ 
       <div className="mb-8 flex w-full justify-center">
         <Image
           src={cert.img}
-          alt="Certificado"
+          alt="Certification"
           width={1600}
           height={1200}
           className="h-auto max-h-[60vh] w-full max-w-2xl rounded-lg object-contain shadow sm:max-h-[70vh] sm:max-w-3xl md:max-w-4xl"
@@ -30,7 +30,7 @@ export default async function CertificationPage({ params }: { params: Promise<{ 
       <div className="flex w-full max-w-2xl justify-center">
         <Link href="/certifications" passHref legacyBehavior>
           <Button asChild variant="outline" size="sm">
-            <a className="flex items-center gap-1">← Voltar para certificados</a>
+            <a className="flex items-center gap-1">← Back to certifications</a>
           </Button>
         </Link>
       </div>
