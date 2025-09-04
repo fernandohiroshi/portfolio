@@ -37,6 +37,7 @@ export function Nav() {
       >
         <NavItem link="/#about" setOpen={setOpen} Icon={FaCircleUser} text="About" />
         <NavItem link="/projects" setOpen={setOpen} Icon={IoIosCodeWorking} text="Projects" />
+        <NavItem link="/certifications" setOpen={setOpen} Icon={IoIosCodeWorking} text="Certifications" />
         <NavItem link="/#contact" setOpen={setOpen} Icon={IoIosMail} text="Contact" />
       </motion.ul>
     </motion.nav>

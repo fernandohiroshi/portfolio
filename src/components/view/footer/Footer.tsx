@@ -14,14 +14,8 @@ const Footer = () => {
           target="_blank"
           className="inline-flex items-center gap-2 text-lg duration-300 ease-in-out hover:font-semibold hover:brightness-150"
         >
-          <Image
-            alt="Konbini Web"
-            src="https://imgix.cosmicjs.com/184b4670-748a-11ef-98d9-cbcb72f3073e-logo.png"
-            width={32}
-            height={32}
-            quality={100}
-          />
-          Based Iguazu Falls | Tokyo.
+          <Image alt="Konbini Web" src="/imgs/logo.webp" width={32} height={32} quality={100} />
+          Iguazu Falls | Tokyo.
         </a>
 
         <div className="grid grid-cols-2 items-center gap-4 md:grid-cols-4">
