@@ -20,27 +20,27 @@ const News = () => {
   const items = [
     {
       image: '/projects/restaurante.webp',
-      url: 'https://konbinicode-restaurante-demo.vercel.app/',
+      url: 'https://konbinicoderestaurante.vercel.app/',
       description: 'Modern and responsive restaurant website.',
     },
     {
       image: '/projects/academia.webp',
-      url: 'https://konbinicode-academia-demo.vercel.app/',
+      url: 'https://konbinicodeacademia.vercel.app/',
       description: 'Platform for promoting fitness services.',
     },
     {
       image: '/projects/pousada.webp',
-      url: 'https://konbinicode-pousada-demo.vercel.app/',
+      url: 'https://konbinicodepousada.vercel.app/',
       description: 'Website for showcasing accommodations.',
     },
     {
       image: '/projects/jornalismo.webp',
-      url: 'https://konbinicode-jornalismo-demo.vercel.app/',
+      url: 'https://konbinicodejornalismo.vercel.app/',
       description: 'Personalized news and articles portal.',
     },
     {
       image: '/projects/tattoo.webp',
-      url: 'https://konbinicode-tattoo-demo.vercel.app/',
+      url: 'https://konbinicodetattoo.vercel.app/',
       description: 'Portfolio for tattoo studio.',
     },
   ]
