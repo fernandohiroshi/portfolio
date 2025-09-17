@@ -7,15 +7,15 @@ const About = () => {
         About me:
       </h2>
       <p className="text-justify text-xs text-foreground opacity-80 lg:text-sm">
-        Full-Stack Developer and founder of Konbini Code, creating websites with a strong focus on design, performance,
-        and user experience. With 8+ years in Japan, I bring a multicultural perspective and advanced Japanese
-        communication skills.
+        Full-Stack Developer specializing in Front-end (React, Next.js, Node.js, TypeScript, Tailwind, Prisma,
+        PostgreSQL) and founder of the micro-agency Konbini Code, creating websites and digital solutions.
         <br />
         <br />
-        Currently pursuing a degree in Cybersecurity and Defense Technology, with an emphasis on Pentesting and Red Team
-        practices. I am also expanding my expertise in modern stacks (Linux, Nest.js, React Native, MongoDB, Docker, and
-        AWS), seeking to integrate development and security while highlighting adaptability, fast learning, and
-        proactivity.
+        Pursuing a degree in Cybersecurity (Pentesting / Red Team). I also deepen my knowledge in Linux, Nest.js, React
+        Native, MongoDB, Docker, and AWS.
+        <br />
+        <br />
+        With 8+ years in Japan, I bring a multicultural perspective and Japanese proficiency.
       </p>
     </Box>
   )

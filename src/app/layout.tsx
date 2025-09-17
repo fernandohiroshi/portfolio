@@ -9,8 +9,9 @@ import Header from '@/components/view/header/Header'
 const raleway = Raleway({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://fernandohiroshi.com'),
   description:
-    'I am a Full-Stack Developer focused on front-end, with expertise in Next.js, React, TypeScript, and Node.js. Founder of the micro-agency Konbini Code, where I develop websites and digital solutions with an emphasis on design and visual identity for small businesses. Currently pursuing a degree in Cybersecurity Management and Defense, specializing in AppSec, Pentest, Elastic Security, AWS, as well as stacks like Nest.js, React Native, and MongoDB, always keeping up-to-date with the latest technologies. With over 8 years of experience living in Japan, I bring multicultural experience, quick adaptability, and advanced proficiency in Japanese. I create complete web solutions for small businesses, including websites, landing pages, and digital identities, focusing on modern design, performance, and user experience.',
+    'Full-Stack Developer specializing in Front-end (React, Next.js, Node.js, TypeScript, Tailwind, Prisma, PostgreSQL) and founder of the micro-agency Konbini Code, creating websites and digital solutions. Pursuing a degree in Cybersecurity (Pentesting / Red Team). I also deepen my knowledge in Linux, Nest.js, React Native, MongoDB, Docker, and AWS. With 8+ years in Japan, I bring a multicultural perspective and Japanese proficiency.',
   keywords: [
     'Fernando Hiroshi',
     'Full-Stack Developer',

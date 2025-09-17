@@ -114,9 +114,7 @@ const Resume = () => {
             <h2 className="mb-4 text-xl font-semibold dark:text-white md:text-2xl">Certificações (Udemy)</h2>
             <ul className="space-y-1 text-sm dark:text-white lg:text-base">
               <li>• NestJS: REST API com TypeORM, JWT e Testes Automatizados | 24h</li>
-              <li>• Next.js do Zero ao Avançado na Prática 2025 | 25h</li>
               <li>• Next.js Ecommerce 2025 – Shopping Platform From Scratch | 22h</li>
-              <li>• Projeto FullStack SaaS – Next.js, TypeScript, Stripe, Prisma | 24h</li>
             </ul>
           </div>
 

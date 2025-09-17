@@ -10,7 +10,7 @@ const Feature = () => {
         <span className="text-purple-500">How</span> are you?
       </h1>
       <p className="text-start text-xs font-semibold opacity-80 lg:text-sm">
-        Building modern web experiences with Next.js, React, TypeScript, and Node.js.
+        I create modern websites with unique designs and underground!
       </p>
 
       <div className="flex items-center justify-end gap-4">
