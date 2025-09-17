@@ -9,9 +9,10 @@ const Feature = () => {
         <span className="text-pink-500">Hello,</span> my name is Hirøshi <br />
         <span className="text-purple-500">How</span> are you?
       </h1>
-      <a href="https://konbini-code.vercel.app/pt" target="_blank" className="text-start text-xs opacity-80 lg:text-sm">
-        I create modern websites with unique designs and underground!
-      </a>
+      <p className="text-start text-xs font-semibold opacity-80 lg:text-sm">
+        Building modern web experiences with Next.js, React, TypeScript, and Node.js.
+      </p>
+
       <div className="flex items-center justify-end gap-4">
         <a href="https://github.com/fernandohiroshi" target="_blank" title="Github">
           <Button variant="outline" size="sm">
