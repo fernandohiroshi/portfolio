@@ -8,11 +8,12 @@ const Avatar = () => {
       <Image
         src="/imgs/avatar.webp"
         alt="Fernando Hiroshi"
-        quality={100}
+        quality={85}
         width={600}
         height={600}
+        sizes="(max-width: 768px) 100vw, 400px"
         className="h-full w-full rounded-lg object-cover object-center duration-500 ease-in-out hover:scale-125"
-        priority={true}
+        priority
       />
     </Box>
   )

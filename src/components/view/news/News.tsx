@@ -48,12 +48,7 @@ const News = () => {
   return (
     <Box className="col-span-12 md:col-span-6">
       <h2 className="text-center text-xl font-medium tracking-widest md:text-2xl">Latest updates</h2>
-      <Carousel
-        plugins={[plugin.current]}
-        className="flex h-full w-full flex-col justify-evenly"
-        // onMouseEnter={plugin.current.stop}
-        // onMouseLeave={plugin.current.reset}
-      >
+      <Carousel plugins={[plugin.current]} className="flex h-full w-full flex-col justify-evenly">
         <CarouselContent className="z-10">
           {items.map((item, index) => (
             <CarouselItem key={index} className="relative">
@@ -61,9 +56,11 @@ const News = () => {
                 <div className="overflow-hidden rounded-xl">
                   <Image
                     src={item.image}
-                    alt={`Imagem ${index + 1}`}
+                    alt={item.description}
                     width={500}
                     height={300}
+                    quality={85}
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     className="h-52 w-full rounded-xl object-contain object-top opacity-85 duration-300 ease-in-out hover:scale-90 hover:opacity-100"
                   />
                 </div>

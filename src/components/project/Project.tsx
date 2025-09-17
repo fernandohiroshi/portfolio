@@ -23,9 +23,11 @@ const Project = () => {
           >
             <Image
               src={p.img}
-              alt="image"
+              alt={p.name}
               width={500}
               height={500}
+              quality={85}
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="h-[14rem] w-full rounded-2xl object-cover"
             />
           </Lens>

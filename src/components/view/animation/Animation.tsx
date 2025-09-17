@@ -10,9 +10,9 @@ const Animation = () => {
         alt="Animation Gif"
         width={600}
         height={600}
+        sizes="(max-width: 768px) 100vw, 400px"
         className="h-full w-full animate-pulse object-cover object-center"
         unoptimized
-        priority={true}
       />
     </Box>
   )

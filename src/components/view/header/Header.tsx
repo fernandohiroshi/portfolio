@@ -25,9 +25,10 @@ const Header = () => {
           alt="Logo"
           width={40}
           height={40}
-          className="duration-500 ease-in-out hover:scale-125 hover:brightness-125"
-          priority={true}
-          quality={100}
+          sizes="40px"
+          quality={75}
+          priority
+          className="h-10 w-10 duration-500 ease-in-out hover:scale-125 hover:brightness-125"
         />
       </Link>
       <div className="flex items-center gap-2">

@@ -14,7 +14,7 @@ const Footer = () => {
           target="_blank"
           className="inline-flex items-center gap-2 text-lg duration-300 ease-in-out hover:font-semibold hover:brightness-150"
         >
-          <Image alt="Konbini Web" src="/imgs/logo.webp" width={32} height={32} quality={100} />
+          <Image alt="Konbini Web" src="/imgs/logo.webp" width={32} height={32} quality={75} sizes="32px" />
           Iguazu Falls | Tokyo.
         </a>
 

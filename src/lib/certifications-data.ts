@@ -4,12 +4,10 @@ export type Certification = {
 }
 
 export const certifications: Certification[] = [
-  // OneBitCode
   {
     slug: 'onebitcode',
     img: '/certifications/onebitcode.webp',
   },
-  // Udemy
   {
     slug: 'udemy-nextjs',
     img: '/certifications/udemy-nextjs.webp',
@@ -18,7 +16,6 @@ export const certifications: Certification[] = [
     slug: 'udemy-nestjs',
     img: '/certifications/udemy-nestjs.webp',
   },
-  // EBAC
   {
     slug: 'ebac',
     img: '/certifications/ebac.webp',

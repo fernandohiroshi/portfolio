@@ -22,9 +22,10 @@ export default function CertificationsPage() {
             <Card className="h-full rounded-lg border transition-all duration-200 hover:scale-95 hover:brightness-110">
               <Image
                 src={cert.img}
-                alt="Certificado"
+                alt={`Certificado ${cert.slug}`}
                 width={500}
                 height={400}
+                quality={85}
                 className="h-36 w-full rounded-lg object-cover sm:h-48 md:h-56"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               />

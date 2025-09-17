@@ -20,11 +20,13 @@ export default async function CertificationPage({ params }: { params: Promise<{ 
       <div className="mb-8 flex w-full justify-center">
         <Image
           src={cert.img}
-          alt="Certification"
+          alt={`Certificação ${cert.slug}`}
           width={1600}
           height={1200}
-          className="h-auto max-h-[60vh] w-full max-w-2xl rounded-lg object-contain shadow sm:max-h-[70vh] sm:max-w-3xl md:max-w-4xl"
+          quality={90}
           priority
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 70vw"
+          className="h-auto max-h-[60vh] w-full max-w-2xl rounded-lg object-contain shadow sm:max-h-[70vh] sm:max-w-3xl md:max-w-4xl"
         />
       </div>
       <div className="flex w-full max-w-2xl justify-center">
