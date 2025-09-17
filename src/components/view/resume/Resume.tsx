@@ -9,9 +9,14 @@ const Resume = () => {
     <div className="container mx-auto px-4 py-8" style={{ fontFamily: 'Arial, sans-serif' }}>
       <Box className="col-span-12 mx-auto max-w-4xl">
         <div className="space-y-8">
+          {/* Page Title */}
+          <div className="text-center">
+            <h1 className="text-4xl font-bold text-gray-900 dark:text-white md:text-5xl">Currículo</h1>
+          </div>
+
           {/* Header */}
           <div className="text-center dark:text-white">
-            <h1 className="text-3xl font-bold md:text-4xl">Fernando Hiroshi Takeda</h1>
+            <h2 className="text-3xl font-bold md:text-4xl">Fernando Hiroshi Takeda</h2>
             <p className="mt-2 text-lg md:text-xl">
               Front-End Engineer | Full-Stack Developer | React, Next.js, TypeScript, Node.js
             </p>
@@ -24,16 +29,24 @@ const Resume = () => {
                 <a
                   href="https://www.linkedin.com/in/fernando-hiroshi/"
                   target="_blank"
-                  className="underline hover:no-underline"
+                  className="text-blue-600 underline transition-colors hover:text-blue-800 hover:no-underline dark:text-blue-400 dark:hover:text-blue-300"
                 >
                   LinkedIn
                 </a>{' '}
                 |{' '}
-                <a href="https://github.com/fernandohiroshi" target="_blank" className="underline hover:no-underline">
+                <a
+                  href="https://github.com/fernandohiroshi"
+                  target="_blank"
+                  className="text-blue-600 underline transition-colors hover:text-blue-800 hover:no-underline dark:text-blue-400 dark:hover:text-blue-300"
+                >
                   Github
                 </a>{' '}
                 |{' '}
-                <a href="https://www.konbinicode.com/pt" target="_blank" className="underline hover:no-underline">
+                <a
+                  href="https://www.konbinicode.com/pt"
+                  target="_blank"
+                  className="text-blue-600 underline transition-colors hover:text-blue-800 hover:no-underline dark:text-blue-400 dark:hover:text-blue-300"
+                >
                   Konbini Code
                 </a>
               </p>
@@ -105,17 +118,6 @@ const Resume = () => {
               <li>• Next.js Ecommerce 2025 – Shopping Platform From Scratch | 22h</li>
               <li>• Projeto FullStack SaaS – Next.js, TypeScript, Stripe, Prisma | 24h</li>
             </ul>
-            <div className="mt-4 flex text-center">
-              <Link href="/certifications">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="border-white hover:bg-black hover:text-white dark:border-black dark:hover:bg-white dark:hover:text-black"
-                >
-                  Ver Todas as Certificações
-                </Button>
-              </Link>
-            </div>
           </div>
 
           {/* Skills */}
@@ -145,6 +147,20 @@ const Resume = () => {
                 </p>
               </div>
             </div>
+          </div>
+
+          {/* Action Buttons */}
+          <div className="flex flex-col gap-4 pt-8 sm:flex-row sm:justify-end">
+            <Link href="/certifications">
+              <Button variant="outline" size="lg" className="w-full sm:w-auto">
+                Ver Certificações
+              </Button>
+            </Link>
+            <Link href="/projects">
+              <Button variant="outline" size="lg" className="w-full sm:w-auto">
+                Ver Projetos
+              </Button>
+            </Link>
           </div>
         </div>
       </Box>

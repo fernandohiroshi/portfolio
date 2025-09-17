@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { FaCircleUser } from 'react-icons/fa6'
 import { FiChevronDown } from 'react-icons/fi'
-import { IoIosCodeWorking, IoIosMail } from 'react-icons/io'
+import { IoIosCodeWorking, IoIosMail, IoIosPaper, IoIosRibbon } from 'react-icons/io'
 
 import { Button } from '@/components/ui/shadcn/button'
 
@@ -37,8 +37,8 @@ export function Nav() {
       >
         <NavItem link="/#about" setOpen={setOpen} Icon={FaCircleUser} text="About" />
         <NavItem link="/projects" setOpen={setOpen} Icon={IoIosCodeWorking} text="Projects" />
-        <NavItem link="/certifications" setOpen={setOpen} Icon={IoIosCodeWorking} text="Certifications" />
-        <NavItem link="/resume" setOpen={setOpen} Icon={IoIosCodeWorking} text="Resume" />
+        <NavItem link="/resume" setOpen={setOpen} Icon={IoIosPaper} text="Resume" />
+        <NavItem link="/certifications" setOpen={setOpen} Icon={IoIosRibbon} text="Certs" />
         <NavItem link="/#contact" setOpen={setOpen} Icon={IoIosMail} text="Contact" />
       </motion.ul>
     </motion.nav>
