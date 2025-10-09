@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import { Button } from '@/components/ui/shadcn/button'
 
 import Box from '../bento/Box'
@@ -24,6 +26,11 @@ const Feature = () => {
             Linkedin
           </Button>
         </a>
+        <Link href="/resume" title="Resume">
+          <Button variant="outline" size="icon">
+            🇧🇷
+          </Button>
+        </Link>
       </div>
     </Box>
   )

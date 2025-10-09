@@ -13,6 +13,14 @@ export const certifications: Certification[] = [
     img: '/certifications/udemy-nextjs.webp',
   },
   {
+    slug: 'udemy-nextjs2',
+    img: '/certifications/udemy-nextjs2.webp',
+  },
+  {
+    slug: 'udemy-nextjs3',
+    img: '/certifications/udemy-nextjs3.webp',
+  },
+  {
     slug: 'udemy-nestjs',
     img: '/certifications/udemy-nestjs.webp',
   },
