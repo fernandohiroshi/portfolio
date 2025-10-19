@@ -29,7 +29,7 @@ const TiltCard = () => {
   const transform = useMotionTemplate`rotateX(${xSpring}deg) rotateY(${ySpring}deg)`
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
-    if (!ref.current) return [0, 0]
+    if (!ref.current) return
 
     const rect = ref.current.getBoundingClientRect()
 

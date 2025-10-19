@@ -6,7 +6,7 @@ const Avatar = () => {
   return (
     <Box className="col-span-12 overflow-hidden p-0 md:col-span-4">
       <Image
-        src="/imgs/avatar.webp"
+        src="/imgs/me.webp"
         alt="Fernando Hiroshi"
         quality={85}
         width={600}

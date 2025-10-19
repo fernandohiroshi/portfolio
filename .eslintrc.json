@@ -23,6 +23,16 @@
           "ignoreCase": true
         }
       }
-    ]
+    ],
+    // Security rules
+    "no-eval": "error",
+    "no-implied-eval": "error",
+    "no-new-func": "error",
+    "no-script-url": "error",
+    "no-alert": "warn",
+    "no-console": "warn",
+    "@typescript-eslint/no-var-requires": "error",
+    "no-var": "error",
+    "prefer-const": "error"
   }
 }

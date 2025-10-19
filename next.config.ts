@@ -4,12 +4,16 @@ const isDev = process.env.NODE_ENV === 'development'
 
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ''};
-  style-src 'self' 'unsafe-inline';
-  img-src 'self' data: blob: https:;
-  connect-src 'self';
-  font-src 'self';
+  script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ''} 'nonce-{nonce}' https://www.google-analytics.com https://www.googletagmanager.com;
+  style-src 'self' 'unsafe-inline' 'nonce-{nonce}' https://fonts.googleapis.com;
+  img-src 'self' data: blob: https: https://www.google-analytics.com https://www.googletagmanager.com;
+  connect-src 'self' https: https://www.google-analytics.com https://www.googletagmanager.com;
+  font-src 'self' data: https://fonts.gstatic.com;
   frame-src 'none';
+  object-src 'none';
+  base-uri 'self';
+  form-action 'self';
+  upgrade-insecure-requests;
 `
 
 const securityHeaders = [
@@ -26,6 +30,10 @@ const securityHeaders = [
     value: 'nosniff',
   },
   {
+    key: 'X-DNS-Prefetch-Control',
+    value: 'off',
+  },
+  {
     key: 'Referrer-Policy',
     value: 'strict-origin-when-cross-origin',
   },
@@ -35,7 +43,20 @@ const securityHeaders = [
   },
   {
     key: 'Permissions-Policy',
-    value: 'camera=(), microphone=(), geolocation=()',
+    value:
+      'camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=()',
+  },
+  {
+    key: 'Cross-Origin-Embedder-Policy',
+    value: 'require-corp',
+  },
+  {
+    key: 'Cross-Origin-Opener-Policy',
+    value: 'same-origin',
+  },
+  {
+    key: 'Cross-Origin-Resource-Policy',
+    value: 'cross-origin',
   },
 ]
 
@@ -46,6 +67,7 @@ const nextConfig: NextConfig = {
     minimumCacheTTL: 60,
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    qualities: [25, 50, 75, 85, 100],
   },
   async headers() {
     return [
