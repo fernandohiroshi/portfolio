@@ -11,7 +11,7 @@ const raleway = Raleway({ subsets: ['latin'] })
 export const metadata: Metadata = {
   metadataBase: new URL('https://fernandohiroshi.com'),
   description:
-    'Full-Stack Developer with a Front-End focus and founder of Konbini Code. Experienced with React, Next.js, TypeScript, Tailwind CSS, Node.js, PostgreSQL, and Prisma, with optimized deployments on Vercel. Currently pursuing a degree in Cybersecurity and Defense Management Technology, applying OWASP Top 10 and ISO/IEC 27001. International experience in Japan (8 years) and interest in defensive cybersecurity (Blue Team) and the strategic use of AI.',
+    'Desenvolvedor Full-Stack com foco em Front-End e idealizador da Konbini Code. Experiência com React, Next.js, TypeScript, Tailwind CSS, Node.js, PostgreSQL e Prisma, com deploys otimizados na Vercel. Graduação em Segurança da Informação, aplicando OWASP Top 10 e ISO/IEC 27001. Vivência no Japão (8 anos) e interesse em cibersegurança defensiva (Blue Team) e uso estratégico de IA.',
   keywords: [
     'Fernando Hiroshi',
     'Fernando Hiroshi Takeda',
@@ -52,9 +52,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Fernando Hiroshi Takeda — Full-Stack Developer',
+    title: 'Fernando Hiroshi Takeda — Desenvolvedor Full-Stack',
     description:
-      'Full-Stack Developer (React, Next.js, TypeScript, Node.js, Prisma, PostgreSQL, Tailwind) focused on performance, SEO, and security. Founder of Konbini Code.',
+      'Full-Stack (React, Next.js, TypeScript, Node.js, Prisma, PostgreSQL, Tailwind) com foco em performance, SEO e segurança. Idealizador da Konbini Code.',
     url: 'https://fernandohiroshi.com',
     siteName: 'Fernando Hiroshi',
     images: [
@@ -62,15 +62,15 @@ export const metadata: Metadata = {
         url: '/imgs/metadata.webp',
         width: 1200,
         height: 630,
-        alt: "Overview of Fernando Hiroshi's Portfolio",
+        alt: 'Visão geral do portfólio de Fernando Hiroshi',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Fernando Hiroshi Takeda — Full-Stack Developer',
+    title: 'Fernando Hiroshi Takeda — Desenvolvedor Full-Stack',
     description:
-      'Full-Stack (React, Next.js, TypeScript, Node.js, Prisma, PostgreSQL, Tailwind). Information Security: OWASP Top 10 and ISO/IEC 27001. Founder of Konbini Code.',
+      'Full-Stack (React, Next.js, TypeScript, Node.js, Prisma, PostgreSQL, Tailwind). Segurança da Informação: OWASP Top 10 e ISO/IEC 27001. Idealizador da Konbini Code.',
     images: ['/imgs/metadata.webp'],
   },
 }
@@ -80,7 +80,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning className="!scroll-smooth">
+    <html lang="pt-BR" suppressHydrationWarning className="!scroll-smooth">
       <body className={`${raleway.className} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <Header />

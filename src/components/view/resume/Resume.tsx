@@ -18,7 +18,8 @@ const Resume = () => {
           <div className="text-left dark:text-white">
             <h2 className="text-3xl font-bold md:text-4xl">Fernando Hiroshi Takeda</h2>
             <p className="mt-3 text-lg text-gray-700 dark:text-gray-300 md:text-xl">
-              Desenvolvedor Full-Stack | React • Next.js • Node.js | Segurança da Informação & Cibersegurança
+              Desenvolvedor Full Stack | Next.js • Tailwind • TypeScript • NestJS • Node.js • PostgreSQL • Prisma •
+              Sanity • Linux | japonês (JLPT N3)
             </p>
             <div className="mt-6 space-y-3 text-sm lg:text-base">
               <div>
@@ -33,7 +34,7 @@ const Resume = () => {
                   </a>
                   <span>|</span>
                   <a
-                    href="https://www.linkedin.com/in/fernandohiroshi"
+                    href="https://www.linkedin.com/in/fernando-hiroshi"
                     target="_blank"
                     className="text-blue-600 underline transition-colors hover:text-blue-800 hover:no-underline dark:text-blue-400 dark:hover:text-blue-300"
                   >
@@ -58,7 +59,15 @@ const Resume = () => {
                 </p>
               </div>
               <p>
-                <strong>Idiomas:</strong> Português (Nativo), Japonês (Avançado - JLPT N3), Inglês (Técnico)
+                <strong>Contato:</strong>{' '}
+                <a className="underline" href="mailto:contatofernandohiroshitakeda@gmail.com">
+                  contatofernandohiroshitakeda@gmail.com
+                </a>
+              </p>
+              <p className="text-gray-700 dark:text-gray-300">Foz do Iguaçu, Paraná, Brasil</p>
+              <p>
+                <strong>Idiomas:</strong> Português (Native or Bilingual), Japonês (Full Professional), Inglês
+                (Elementary)
               </p>
             </div>
           </div>
@@ -68,17 +77,21 @@ const Resume = () => {
             <h2 className="mb-6 text-xl font-semibold dark:text-white md:text-2xl">Resumo Profissional</h2>
             <div className="space-y-4">
               <p className="text-left text-sm leading-relaxed text-gray-700 dark:text-gray-300 lg:text-base">
-                Desenvolvedor Full-Stack com foco em Front-End e fundador da Konbini Code, microagência especializada em
-                soluções digitais escaláveis, como landing pages, aplicações web e sistemas corporativos. Experiência
-                com React, Next.js, TypeScript, Tailwind CSS, Node.js, PostgreSQL e Prisma, com deploys otimizados em
-                Vercel.
+                Desenvolvedor Full-Stack com foco em Front-End e idealizador da Konbini Code, microagência dedicada à
+                criação de soluções digitais personalizadas, como landing pages, aplicações web e sites sob medida.
+                Trabalho com tecnologias como Next.js, Tailwind CSS, TypeScript, Node.js, PostgreSQL, Prisma e Sanity,
+                com deploys otimizados na Vercel.
               </p>
               <p className="text-left text-sm leading-relaxed text-gray-700 dark:text-gray-300 lg:text-base">
-                Cursando Tecnologia em Gestão da Segurança e Defesa Cibernética, com ênfase em segurança da informação,
-                aplico conceitos de proteção de aplicações baseados em OWASP Top 10 e ISO/IEC 27001. Experiência
-                internacional no Japão (8 anos) com japonês avançado (JLPT N3) e mais de 6 anos no setor de turismo,
-                aprimorando habilidades interpessoais, organização e adaptabilidade. Interesse em desenvolvimento web
-                com foco em cibersegurança defensiva (Blue Team) e uso estratégico de IA.
+                Atualmente curso graduação em Segurança da Informação, aprofundando meus conhecimentos em
+                cibersegurança, proteção de aplicações e defesa cibernética, aplicando gradualmente conceitos em
+                projetos reais. Exploro também stacks como React Native, NestJS, Python, Shell Script, Linux, MongoDB e
+                redes, além de ferramentas voltadas para cybersecurity e ethical hacking.
+              </p>
+              <p className="text-left text-sm leading-relaxed text-gray-700 dark:text-gray-300 lg:text-base">
+                Com mais de 8 anos de vivência no Japão e experiência de mais de 6 anos no setor de turismo, desenvolvi
+                habilidades interpessoais, pensamento analítico, organização e adaptabilidade. Valorizo o aprendizado
+                contínuo e o uso estratégico de inteligência artificial no dia a dia.
               </p>
             </div>
           </div>
@@ -91,21 +104,20 @@ const Resume = () => {
                 <h3 className="text-lg font-medium text-gray-900 dark:text-white">
                   Konbini Code — Full-Stack Developer
                 </h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Dezembro 2023 – Presente</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Dezembro de 2023 – Presente</p>
                 <ul className="mt-4 space-y-2 text-sm text-gray-700 dark:text-gray-300 lg:text-base">
                   <li className="flex items-start">
                     <span className="mr-2 mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-blue-500"></span>
-                    Desenvolvimento de aplicações web modernas usando React, Next.js, TypeScript, Node.js, Prisma e
-                    PostgreSQL.
+                    Desenvolvo soluções web modernas usando React, Next.js, TypeScript, Node.js, Prisma e PostgreSQL.
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-blue-500"></span>
-                    Criação de landing pages, portfólios e sites corporativos focados em performance, SEO e
+                    Crio landing pages, portfólios e sites corporativos, com foco em usabilidade, performance, SEO e
                     acessibilidade.
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-blue-500"></span>
-                    Manutenção e otimização de código com boas práticas e versionamento Git/GitHub.
+                    Realizo manutenção contínua e otimizações seguindo boas práticas e versionamento com Git/GitHub.
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-blue-500"></span>
@@ -118,20 +130,20 @@ const Resume = () => {
                   Grupo Tarobá — Recepcionista Sênior
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Novembro 2021 – Novembro 2023 | Foz do Iguaçu, PR
+                  Novembro de 2021 – Novembro de 2023 | Foz do Iguaçu, PR
                 </p>
                 <ul className="mt-4 space-y-2 text-sm text-gray-700 dark:text-gray-300 lg:text-base">
                   <li className="flex items-start">
                     <span className="mr-2 mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-blue-500"></span>
-                    Gestão da recepção, treinamento da equipe e atendimento ao cliente.
+                    Gerenciei a recepção do hotel, treinando a equipe e atendendo clientes.
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-blue-500"></span>
-                    Administração de sistemas CRM Bitrix24 e HITS para reservas e check-in/out.
+                    Administração de sistemas como CRM Bitrix24 e HITS para reservas e check-in/out.
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-blue-500"></span>
-                    Coordenação de processos operacionais e elaboração de relatórios em Excel.
+                    Coordenei processos, resolvi problemas e elaborei relatórios em Excel.
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-blue-500"></span>
@@ -144,7 +156,7 @@ const Resume = () => {
                   Hotel Iguassu Holiday — Agente de Viagens
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Novembro 2018 – Junho 2020 | Foz do Iguaçu, PR
+                  Novembro de 2018 – Junho de 2020 | Foz do Iguaçu, PR
                 </p>
                 <ul className="mt-4 space-y-2 text-sm text-gray-700 dark:text-gray-300 lg:text-base">
                   <li className="flex items-start">
@@ -153,7 +165,7 @@ const Resume = () => {
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-blue-500"></span>
-                    Atuação como intérprete bilíngue e coordenação de stakeholders.
+                    Atuei como intérprete bilíngue e coordenei stakeholders.
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-blue-500"></span>
@@ -175,7 +187,16 @@ const Resume = () => {
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   Curso Superior de Tecnologia (CST), Gestão da Segurança e Defesa Cibernética
                 </p>
-                <p className="text-sm text-gray-500 dark:text-gray-500">Agosto 2025 – Setembro 2027 (em andamento)</p>
+                <p className="text-sm text-gray-500 dark:text-gray-500">
+                  Agosto de 2025 – Setembro de 2027 (em andamento)
+                </p>
+                <p className="mt-2 text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+                  Graduação voltada à segurança da informação com foco em princípios de cibersegurança, proteção de
+                  aplicações e defesa cibernética. Estudo de fundamentos como gestão de riscos, conformidade (ISO/IEC
+                  27001), práticas alinhadas ao OWASP Top 10, autenticação e controle de acessos, além de redes e
+                  sistemas. Aplicação gradual dos conceitos em projetos reais do meu portfólio e iniciativas da Konbini
+                  Code.
+                </p>
               </div>
             </div>
           </div>
@@ -187,94 +208,16 @@ const Resume = () => {
               <div className="border-l-4 border-green-500 pl-6">
                 <h3 className="text-base font-medium text-gray-900 dark:text-white lg:text-lg">OneBitCode</h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Formação Profissional, Full-Stack JavaScript | 200h | Certificado
+                  Formação Profissional, Full-Stack JavaScript Developer
                 </p>
+                <p className="text-sm text-gray-500 dark:text-gray-500">Fevereiro de 2024 – Setembro de 2025</p>
               </div>
               <div className="border-l-4 border-green-500 pl-6">
                 <h3 className="text-base font-medium text-gray-900 dark:text-white lg:text-lg">
                   EBAC - Escola Britânica de Artes Criativas e Tecnologia
                 </h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Formação Profissional, Engenheiro Front-End | 65h | Certificado
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Competências Técnicas */}
-          <div>
-            <h2 className="mb-6 text-xl font-semibold dark:text-white md:text-2xl">Competências Técnicas</h2>
-            <div className="grid gap-6 md:grid-cols-2">
-              <div className="space-y-4">
-                <div>
-                  <h3 className="mb-2 text-base font-medium text-gray-900 dark:text-white">Linguagens & Frameworks</h3>
-                  <div className="flex flex-wrap gap-2">
-                    {['React.js', 'Next.js', 'JavaScript', 'TypeScript', 'Node.js', 'NestJS'].map((skill) => (
-                      <span
-                        key={skill}
-                        className="rounded-full bg-blue-100 px-3 py-1 text-xs font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-200"
-                      >
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                <div>
-                  <h3 className="mb-2 text-base font-medium text-gray-900 dark:text-white">Banco de Dados</h3>
-                  <div className="flex flex-wrap gap-2">
-                    {['PostgreSQL', 'Prisma'].map((skill) => (
-                      <span
-                        key={skill}
-                        className="rounded-full bg-green-100 px-3 py-1 text-xs font-medium text-green-800 dark:bg-green-900 dark:text-green-200"
-                      >
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </div>
-              <div className="space-y-4">
-                <div>
-                  <h3 className="mb-2 text-base font-medium text-gray-900 dark:text-white">Ferramentas & Outras</h3>
-                  <div className="flex flex-wrap gap-2">
-                    {['Git/GitHub', 'Vercel', 'Tailwind CSS', 'Docker', 'Linux', 'Figma', 'shadcn', 'HTML'].map(
-                      (skill) => (
-                        <span
-                          key={skill}
-                          className="rounded-full bg-purple-100 px-3 py-1 text-xs font-medium text-purple-800 dark:bg-purple-900 dark:text-purple-200"
-                        >
-                          {skill}
-                        </span>
-                      ),
-                    )}
-                  </div>
-                </div>
-                <div>
-                  <h3 className="mb-2 text-base font-medium text-gray-900 dark:text-white">Segurança</h3>
-                  <div className="flex flex-wrap gap-2">
-                    {['Princípios OWASP Top 10', 'ISO/IEC 27001', 'JWT', 'Autenticação', 'Testes'].map((skill) => (
-                      <span
-                        key={skill}
-                        className="rounded-full bg-orange-100 px-3 py-1 text-xs font-medium text-orange-800 dark:bg-orange-900 dark:text-orange-200"
-                      >
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                <div>
-                  <h3 className="mb-2 text-base font-medium text-gray-900 dark:text-white">Idiomas</h3>
-                  <div className="flex flex-wrap gap-2">
-                    {['Português (Nativo)', 'Japonês (Avançado - JLPT N3)', 'Inglês (Técnico)'].map((skill) => (
-                      <span
-                        key={skill}
-                        className="rounded-full bg-teal-100 px-3 py-1 text-xs font-medium text-teal-800 dark:bg-teal-900 dark:text-teal-200"
-                      >
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-                </div>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Formação Profissional, Front-End Engineer</p>
+                <p className="text-sm text-gray-500 dark:text-gray-500">Maio de 2023 – Maio de 2024</p>
               </div>
             </div>
           </div>
@@ -300,7 +243,7 @@ const Resume = () => {
               </div>
               <div className="border-l-4 border-purple-500 pl-6">
                 <h3 className="text-sm font-medium text-gray-900 dark:text-white lg:text-base">
-                  NestJS para REST API com Autenticação JWT e Testes
+                  NestJS para REST API com TypeORM, Autenticação JWT e Testes
                 </h3>
               </div>
             </div>
@@ -310,7 +253,7 @@ const Resume = () => {
           <div className="flex flex-col gap-4 border-t border-gray-200 pt-8 dark:border-gray-700 sm:flex-row sm:justify-center">
             <Link href="/certifications" className="w-full sm:w-auto">
               <Button variant="outline" size="lg" className="w-full transition-all hover:scale-105">
-                📜 Ver Certificações
+                Ver Certificações
               </Button>
             </Link>
             <Link href="/projects" className="w-full sm:w-auto">

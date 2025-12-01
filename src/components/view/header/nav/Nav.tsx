@@ -19,7 +19,7 @@ export function Nav() {
       <Button
         onClick={() => setOpen((pv) => !pv)}
         className="flex items-center gap-2 rounded-md px-3 py-2 transition-colors"
-        title="Navigation Menu"
+        title="Menu de Navegação"
         size="default"
         variant="outline"
       >
@@ -35,11 +35,11 @@ export function Nav() {
         style={{ originY: 'top', translateX: '-33%' }}
         className="absolute left-0 top-[120%] z-50 flex w-32 flex-col gap-2 overflow-hidden rounded-lg bg-secondary p-2 text-primary shadow-xl"
       >
-        <NavItem link="/#about" setOpen={setOpen} Icon={FaCircleUser} text="About" />
-        <NavItem link="/projects" setOpen={setOpen} Icon={IoIosCodeWorking} text="Projects" />
-        <NavItem link="/resume" setOpen={setOpen} Icon={IoIosPaper} text="Resume" />
-        <NavItem link="/certifications" setOpen={setOpen} Icon={IoIosRibbon} text="Certs" />
-        <NavItem link="/#contact" setOpen={setOpen} Icon={IoIosMail} text="Contact" />
+        <NavItem link="/#about" setOpen={setOpen} Icon={FaCircleUser} text="Sobre" />
+        <NavItem link="/projects" setOpen={setOpen} Icon={IoIosCodeWorking} text="Projetos" />
+        <NavItem link="/resume" setOpen={setOpen} Icon={IoIosPaper} text="Currículo" />
+        <NavItem link="/certifications" setOpen={setOpen} Icon={IoIosRibbon} text="Certificações" />
+        <NavItem link="/#contact" setOpen={setOpen} Icon={IoIosMail} text="Contato" />
       </motion.ul>
     </motion.nav>
   )

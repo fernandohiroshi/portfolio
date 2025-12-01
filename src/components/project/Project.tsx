@@ -43,14 +43,14 @@ const Project = () => {
                 {p.codeBtn && (
                   <a href={p.code}>
                     <Button variant="outline" size="sm">
-                      Code
+                      Código
                     </Button>
                   </a>
                 )}
                 {p.liveBtn && (
                   <a href={p.live}>
                     <Button variant="outline" size="sm">
-                      Live
+                      Site
                     </Button>
                   </a>
                 )}

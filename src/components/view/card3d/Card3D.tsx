@@ -64,7 +64,7 @@ const TiltCard = () => {
     >
       <Link
         href="/projects"
-        title="Projects Page"
+        title="Página de Projetos"
         style={{
           transform: 'translateZ(75px)',
           transformStyle: 'preserve-3d',
@@ -77,7 +77,7 @@ const TiltCard = () => {
           }}
           className="animate-pulse text-center text-2xl font-semibold uppercase"
         >
-          Projects
+          Projetos
         </h2>
       </Link>
     </motion.div>

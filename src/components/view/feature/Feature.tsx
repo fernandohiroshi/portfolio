@@ -1,19 +1,17 @@
 import { Button } from '@/components/ui/shadcn/button'
-
 import Box from '../bento/Box'
 
 const Feature = () => {
   return (
     <Box className="col-span-12 flex flex-col justify-evenly md:col-span-8">
-      <h1 className="text-start text-2xl font-semibold md:text-4xl">
-        <span className="text-pink-500">Hello,</span> my name is Hirøshi <br />
-        <span className="text-purple-500">How</span> are you?
+      <h1 className="text-start text-3xl font-bold md:text-4xl">
+        <span className="text-pink-500">Hey!</span> Me chamo Hirøshi <br />
+        Transformo <span className="text-purple-500">ideias</span> em experiências digitais.
       </h1>
-      <p className="text-start text-xs font-semibold opacity-80 lg:text-sm">
-        I create modern websites with unique designs and underground!
+      <p className="mt-4 text-start text-sm font-semibold opacity-80">
+        Crio sites e apps modernos com design único e toque underground.
       </p>
-
-      <div className="flex items-center justify-end gap-4">
+      <div className="mt-6 flex items-center justify-end gap-4">
         <a href="https://github.com/fernandohiroshi" target="_blank" title="Github">
           <Button variant="outline" size="sm">
             Github

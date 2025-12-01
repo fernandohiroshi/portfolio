@@ -19,35 +19,19 @@ const News = () => {
 
   const items = [
     {
-      image: '/projects/restaurante.webp',
-      url: 'https://konbinicoderestaurante.vercel.app/',
-      description: 'Modern and responsive restaurant website.',
+      image: '/projects/nestjs.webp',
+      url: 'https://github.com/fernandohiroshi/nestjs-crud',
+      description: 'Aplicação CRUD construída com NestJS.',
     },
     {
-      image: '/projects/academia.webp',
-      url: 'https://konbinicodeacademia.vercel.app/',
-      description: 'Platform for promoting fitness services.',
-    },
-    {
-      image: '/projects/pousada.webp',
-      url: 'https://konbinicodepousada.vercel.app/',
-      description: 'Website for showcasing accommodations.',
-    },
-    {
-      image: '/projects/jornalismo.webp',
-      url: 'https://konbinicodejornalismo.vercel.app/',
-      description: 'Personalized news and articles portal.',
-    },
-    {
-      image: '/projects/tattoo.webp',
-      url: 'https://konbinicodetattoo.vercel.app/',
-      description: 'Portfolio for tattoo studio.',
+      image: '/projects/viptechstore.webp',
+      url: 'https://www.viptech.store/',
+      description: 'E-commerce desenvolvido com Next.js e TypeScript.',
     },
   ]
 
   return (
     <Box className="col-span-12 md:col-span-6">
-      <h2 className="text-center text-xl font-medium tracking-widest md:text-2xl">Latest updates</h2>
       <Carousel plugins={[plugin.current]} className="flex h-full w-full flex-col justify-evenly">
         <CarouselContent className="z-10">
           {items.map((item, index) => (
@@ -71,7 +55,7 @@ const News = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <div className="my-2 flex justify-end gap-2 lg:scale-100">
+        <div className="flex justify-end gap-2 pt-1 lg:scale-100">
           <CarouselPrevious />
           <CarouselNext />
         </div>
