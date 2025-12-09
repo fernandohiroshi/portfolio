@@ -2,7 +2,7 @@
 
 Personal portfolio of **Fernando Hiroshi Takeda**, a Front-End Engineer specialized in **Next.js, React.js, and TypeScript**, also working as a Full-Stack Developer. This project showcases skills, projects, certifications, and resume through a modern, responsive interface focused on performance, SEO, and accessibility.
 
-![Portfolio Preview](/public/projects/portfolio.webp)
+![Portfolio Preview](/public/imgs/metadata.webp)
 
 > **Notice**: This project is protected by copyright. Any unauthorized use or reproduction of this code is prohibited.
 
