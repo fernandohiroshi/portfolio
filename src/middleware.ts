@@ -4,9 +4,8 @@ import type { NextRequest } from 'next/server'
 export function middleware(request: NextRequest) {
   const response = NextResponse.next()
 
-  // Security headers (additional to next.config.ts)
+  // SEO / robots
   response.headers.set('X-Robots-Tag', 'index, follow')
-  response.headers.set('Cache-Control', 'public, max-age=31536000, immutable')
 
   // Prevent clickjacking
   response.headers.set('X-Frame-Options', 'DENY')
@@ -14,17 +13,17 @@ export function middleware(request: NextRequest) {
   // Prevent MIME type sniffing
   response.headers.set('X-Content-Type-Options', 'nosniff')
 
-  // XSS Protection
-  response.headers.set('X-XSS-Protection', '1; mode=block')
-
   // Referrer Policy
   response.headers.set('Referrer-Policy', 'strict-origin-when-cross-origin')
 
-  // Feature Policy
+  // Permissions Policy (successor of Feature Policy)
   response.headers.set(
     'Permissions-Policy',
-    'camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=()',
+    'geolocation=(), microphone=(), camera=(), payment=(), usb=(), vr=(), fullscreen=(self)',
   )
+
+  // Optional: HSTS (enable only if the site is always served over HTTPS)
+  // response.headers.set('Strict-Transport-Security', 'max-age=63072000; includeSubDomains; preload')
 
   // CORS headers for API routes and public resources
   if (request.nextUrl.pathname.startsWith('/api/') || request.nextUrl.pathname.startsWith('/public/')) {

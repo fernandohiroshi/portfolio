@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import { Button } from '@/components/ui/shadcn/button'
+import { Button } from '@/components/ui/button'
 
 import Box from '../bento/Box'
 
@@ -18,21 +18,12 @@ const Resume = () => {
           <div className="text-left dark:text-white">
             <h2 className="text-3xl font-bold md:text-4xl">Fernando Hiroshi Takeda</h2>
             <p className="mt-3 text-lg text-gray-700 dark:text-gray-300 md:text-xl">
-              Desenvolvedor Full Stack | Next.js • Tailwind • TypeScript • NestJS • Node.js • PostgreSQL • Prisma •
-              Sanity • Linux | japonês (JLPT N3)
+              Front-End Engineer | React &amp; Next.js | Full-Stack Developer | 日本語 (N3)
             </p>
             <div className="mt-6 space-y-3 text-sm lg:text-base">
               <div>
                 <p className="flex flex-wrap items-center gap-2">
                   <strong className="mr-2">Links:</strong>
-                  <a
-                    href="https://fernandohiroshi.com"
-                    target="_blank"
-                    className="text-blue-600 underline transition-colors hover:text-blue-800 hover:no-underline dark:text-blue-400 dark:hover:text-blue-300"
-                  >
-                    Site
-                  </a>
-                  <span>|</span>
                   <a
                     href="https://www.linkedin.com/in/fernando-hiroshi"
                     target="_blank"
@@ -66,8 +57,7 @@ const Resume = () => {
               </p>
               <p className="text-gray-700 dark:text-gray-300">Foz do Iguaçu, Paraná, Brasil</p>
               <p>
-                <strong>Idiomas:</strong> Português (Native or Bilingual), Japonês (Full Professional), Inglês
-                (Elementary)
+                <strong>Idiomas:</strong> Português (Nativo), Inglês (Elementary), Japonês (Full Professional)
               </p>
             </div>
           </div>
@@ -79,8 +69,8 @@ const Resume = () => {
               <p className="text-left text-sm leading-relaxed text-gray-700 dark:text-gray-300 lg:text-base">
                 Desenvolvedor Full-Stack com foco em Front-End e idealizador da Konbini Code, microagência dedicada à
                 criação de soluções digitais personalizadas, como landing pages, aplicações web e sites sob medida.
-                Trabalho com tecnologias como Next.js, Tailwind CSS, TypeScript, Node.js, PostgreSQL, Prisma e Sanity,
-                com deploys otimizados na Vercel.
+                Trabalho com tecnologias como React, Next.js, Tailwind CSS, TypeScript, Node.js, PostgreSQL, Prisma e
+                Sanity, com deploys otimizados na Vercel.
               </p>
               <p className="text-left text-sm leading-relaxed text-gray-700 dark:text-gray-300 lg:text-base">
                 Atualmente curso graduação em Segurança da Informação, aprofundando meus conhecimentos em
@@ -92,6 +82,40 @@ const Resume = () => {
                 Com mais de 8 anos de vivência no Japão e experiência de mais de 6 anos no setor de turismo, desenvolvi
                 habilidades interpessoais, pensamento analítico, organização e adaptabilidade. Valorizo o aprendizado
                 contínuo e o uso estratégico de inteligência artificial no dia a dia.
+              </p>
+            </div>
+          </div>
+
+          {/* Principais Competências */}
+          <div>
+            <h2 className="mb-6 text-xl font-semibold dark:text-white md:text-2xl">Principais Competências</h2>
+            <div className="space-y-4 text-sm leading-relaxed text-gray-700 dark:text-gray-300 lg:text-base">
+              <p>
+                <strong>Front-end (uso em projetos):</strong> Next.js, React.js, TypeScript, Tailwind CSS, HTML5, CSS3,
+                SASS, shadcn/ui, SEO e Acessibilidade.
+              </p>
+              <p>
+                <strong>Back-end:</strong> Node.js, PostgreSQL, Prisma ORM, Sanity CMS, REST APIs.
+              </p>
+              <p>
+                <strong>Autenticação &amp; Infra:</strong> NextAuth, Better Auth, Clerk, Kinde Auth, Supabase, Neon
+                Database, Vercel, Linux, Shell Script.
+              </p>
+              <p>
+                <strong>Design / UX:</strong> Figma, prototipagem e experiência do usuário.
+              </p>
+              <p>
+                <strong>Versionamento:</strong> Git, GitHub.
+              </p>
+              <p>
+                <strong>Produtividade &amp; IA:</strong> uso estratégico de ferramentas como Cursor, Windsurf e modelos
+                GPT para otimizar o desenvolvimento.
+              </p>
+            </div>
+            <div className="mt-6 space-y-2 text-sm leading-relaxed text-gray-700 dark:text-gray-300 lg:text-base">
+              <p className="font-semibold">Em estudo / aprofundamento:</p>
+              <p>
+                PHP, Python, MySQL, NestJS, React Native, MongoDB, Payload CMS, Arcjet, Cybersecurity e Ethical Hacking.
               </p>
             </div>
           </div>
@@ -185,17 +209,17 @@ const Resume = () => {
                   UNINTER Centro Universitário Internacional
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Curso Superior de Tecnologia (CST), Gestão da Segurança e Defesa Cibernética
+                  Curso Superior de Tecnologia (CST), Tecnologia em Segurança da Informação
                 </p>
                 <p className="text-sm text-gray-500 dark:text-gray-500">
                   Agosto de 2025 – Setembro de 2027 (em andamento)
                 </p>
                 <p className="mt-2 text-sm leading-relaxed text-gray-700 dark:text-gray-300">
-                  Graduação voltada à segurança da informação com foco em princípios de cibersegurança, proteção de
-                  aplicações e defesa cibernética. Estudo de fundamentos como gestão de riscos, conformidade (ISO/IEC
-                  27001), práticas alinhadas ao OWASP Top 10, autenticação e controle de acessos, além de redes e
-                  sistemas. Aplicação gradual dos conceitos em projetos reais do meu portfólio e iniciativas da Konbini
-                  Code.
+                  Graduação em Segurança da Informação, voltada para proteção de sistemas, dados e redes. Abrange defesa
+                  cibernética, criptografia, computação forense, segurança em web, bancos de dados e dispositivos
+                  móveis, além de recuperação de desastres e continuidade de negócios. Desenvolve competências em gestão
+                  de TI, análise de riscos e tomada de decisões estratégicas, com prática em monitoramento, análise de
+                  vulnerabilidades e ethical hacking.
                 </p>
               </div>
             </div>

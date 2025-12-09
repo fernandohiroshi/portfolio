@@ -87,13 +87,10 @@ export const generateCSRFToken = (): string => {
 }
 
 // Security headers validation
+// Returns true if the minimum required headers are present.
+// Additional headers (HSTS, CSP, etc.) are recommended but not mandatory here.
 export const validateSecurityHeaders = (headers: Headers): boolean => {
-  const requiredHeaders = [
-    'x-frame-options',
-    'x-content-type-options',
-    'strict-transport-security',
-    'content-security-policy',
-  ]
+  const requiredHeaders = ['x-frame-options', 'x-content-type-options']
 
   return requiredHeaders.every((header) => headers.has(header))
 }

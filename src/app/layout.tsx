@@ -3,43 +3,73 @@ import { Raleway } from 'next/font/google'
 import { Metadata } from 'next/types'
 import { Toaster } from 'react-hot-toast'
 
+import Header from '@/components/layout/header/Header'
 import { ThemeProvider } from '@/components/theme/provider'
-import Header from '@/components/view/header/Header'
 
 const raleway = Raleway({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://fernandohiroshi.com'),
   description:
-    'Desenvolvedor Full-Stack com foco em Front-End e idealizador da Konbini Code. Experiência com React, Next.js, TypeScript, Tailwind CSS, Node.js, PostgreSQL e Prisma, com deploys otimizados na Vercel. Graduação em Segurança da Informação, aplicando OWASP Top 10 e ISO/IEC 27001. Vivência no Japão (8 anos) e interesse em cibersegurança defensiva (Blue Team) e uso estratégico de IA.',
+    'Fernando Hiroshi Takeda — Front-End Engineer especializado em React e Next.js, atuando como Full-Stack Developer. Trabalho com Next.js, React.js, TypeScript, Tailwind CSS, Node.js, PostgreSQL, Prisma ORM, Sanity CMS e REST APIs, criando landing pages, portfólios e aplicações web otimizadas para performance, SEO e acessibilidade. Tenho experiência com autenticação e infraestrutura usando Next Auth, Better Auth, Clerk, Kinde Auth, Supabase, Neon Database, Vercel, Linux e Shell Script, além de uso estratégico de IA (Cursor, Windsurf, GPT) para acelerar o desenvolvimento. Atualmente estou aprofundando estudos em PHP, Python, MySQL, NestJS, React Native, MongoDB, Payload CMS, Arcjet, Cybersecurity e Ethical Hacking.',
   keywords: [
     'Fernando Hiroshi',
     'Fernando Hiroshi Takeda',
+    'Front-End Engineer',
     'Full-Stack Developer',
-    'Front-End',
     'React',
+    'React.js',
     'Next.js',
     'TypeScript',
+    'JavaScript',
     'Node.js',
     'NestJS',
+    'React Native',
     'PostgreSQL',
+    'MongoDB',
     'Prisma',
+    'Sanity',
     'Tailwind CSS',
     'Vercel',
     'Konbini Code',
-    'OWASP Top 10',
-    'ISO/IEC 27001',
-    'Cybersecurity',
-    'Information Security',
-    'Blue Team',
-    'JWT',
-    'Authentication',
-    'REST APIs',
-    'SEO',
-    'Performance',
-    'Accessibility',
-    'Web Projects',
     'Landing Pages',
+    'Portfólios',
+    'Aplicações Web',
+    'SEO',
+    'Acessibilidade',
+    'Performance Web',
+    'Web Developer',
+    'Full-Stack JavaScript',
+    'REST APIs',
+    'Autenticação',
+    'Next Auth',
+    'Better Auth',
+    'Clerk',
+    'Kinde Auth',
+    'Supabase',
+    'Neon Database',
+    'Sanity CMS',
+    'Prisma ORM',
+    'Linux',
+    'Shell Script',
+    'Git',
+    'GitHub',
+    'Figma',
+    'Design UX',
+    'Prototipagem',
+    'Experiência do usuário',
+    'IA aplicada ao desenvolvimento',
+    'Cursor',
+    'Windsurf',
+    'GPT',
+    'PHP',
+    'Python',
+    'MySQL',
+    'Payload CMS',
+    'Arcjet',
+    'Cybersecurity',
+    'Segurança da Informação',
+    'Ethical Hacking',
   ],
   robots: {
     index: true,
@@ -52,9 +82,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Fernando Hiroshi Takeda — Desenvolvedor Full-Stack',
+    title: 'Fernando Hiroshi Takeda — Front-End Engineer | Next.js, React & TypeScript',
     description:
-      'Full-Stack (React, Next.js, TypeScript, Node.js, Prisma, PostgreSQL, Tailwind) com foco em performance, SEO e segurança. Idealizador da Konbini Code.',
+      'Front-End Engineer e Full-Stack Developer especializado em Next.js, React.js, TypeScript e Tailwind CSS. Desenvolve landing pages, portfólios e aplicações web com Node.js, PostgreSQL, Prisma ORM, Sanity CMS e REST APIs, com foco em performance, SEO, acessibilidade e segurança. Atua também com autenticação moderna (Next Auth, Better Auth, Clerk, Kinde Auth, Supabase, Neon) e uso estratégico de IA para acelerar o desenvolvimento.',
     url: 'https://fernandohiroshi.com',
     siteName: 'Fernando Hiroshi',
     images: [
@@ -68,9 +98,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Fernando Hiroshi Takeda — Desenvolvedor Full-Stack',
+    title: 'Fernando Hiroshi Takeda — Front-End Engineer | Next.js, React & TypeScript',
     description:
-      'Full-Stack (React, Next.js, TypeScript, Node.js, Prisma, PostgreSQL, Tailwind). Segurança da Informação: OWASP Top 10 e ISO/IEC 27001. Idealizador da Konbini Code.',
+      'Front-End Engineer e Full-Stack Developer com experiência em Next.js, React.js, TypeScript, Tailwind CSS, Node.js, PostgreSQL, Prisma ORM e Sanity CMS. Focado em performance, SEO, acessibilidade, autenticação segura e uso de IA (Cursor, Windsurf, GPT) para aumentar a produtividade em projetos web.',
     images: ['/imgs/metadata.webp'],
   },
 }

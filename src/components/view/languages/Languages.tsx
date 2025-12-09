@@ -2,8 +2,8 @@
 
 import { Bar, BarChart, XAxis, YAxis } from 'recharts'
 
-import { Card, CardContent } from '@/components/ui/shadcn/card'
-import { ChartConfig, ChartContainer, ChartTooltip, ChartTooltipContent } from '@/components/ui/shadcn/chart'
+import { Card, CardContent } from '@/components/ui/card'
+import { ChartConfig, ChartContainer, ChartTooltip, ChartTooltipContent } from '@/components/ui/chart'
 
 import Box from '../bento/Box'
 
@@ -44,7 +44,7 @@ const Languages = () => {
       <Card>
         <h2 className="text-xl font-medium tracking-widest md:text-2xl">Languages:</h2>
         <CardContent>
-          <ChartContainer config={chartConfig}>
+          <ChartContainer id="languages" config={chartConfig}>
             <BarChart
               accessibilityLayer
               data={chartData}

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { BackgroundBeams } from '@/components/ui/aceternity/background-beams-with-collision'
+import { BackgroundBeams } from '@/components/ui/background-beams-with-collision'
 
 import Box from '../bento/Box'
 

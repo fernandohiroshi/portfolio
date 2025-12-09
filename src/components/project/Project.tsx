@@ -6,8 +6,8 @@ import { useState } from 'react'
 
 import { projects } from '@/lib/projects-datas'
 
-import { Lens } from '@/components/ui/aceternity/lens'
-import { Button } from '@/components/ui/shadcn/button'
+import { Button } from '@/components/ui/button'
+import { Lens } from '@/components/ui/lens'
 import Box from '@/components/view/bento/Box'
 
 const Project = () => {
@@ -28,7 +28,7 @@ const Project = () => {
               height={500}
               quality={85}
               sizes="(max-width: 768px) 100vw, 50vw"
-              className="h-[14rem] w-full rounded-2xl object-cover"
+              className="h-[14rem] w-full rounded-2xl object-contain"
             />
           </Lens>
           <motion.div
@@ -37,18 +37,18 @@ const Project = () => {
             }}
             className="mt-4"
           >
-            <div className="flex items-center justify-between">
-              <h2 className="text-base md:text-2xl">{p.name}</h2>
-              <div className="flex items-center gap-4">
+            <div className="flex items-center justify-between px-4 md:px-0">
+              <h2 className="text-base md:text-xl">{p.name}</h2>
+              <div className="flex items-center gap-2">
                 {p.codeBtn && (
-                  <a href={p.code}>
+                  <a href={p.code} target="_blank">
                     <Button variant="outline" size="sm">
                       Código
                     </Button>
                   </a>
                 )}
                 {p.liveBtn && (
-                  <a href={p.live}>
+                  <a href={p.live} target="_blank">
                     <Button variant="outline" size="sm">
                       Site
                     </Button>

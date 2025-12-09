@@ -1,9 +1,8 @@
 import Image from 'next/image'
 import { PiArrowCircleUpRightLight } from 'react-icons/pi'
 
-import { Button } from '@/components/ui/shadcn/button'
-
-import Box from '../bento/Box'
+import { Button } from '@/components/ui/button'
+import Box from '@/components/view/bento/Box'
 
 const Footer = () => {
   return (
@@ -12,7 +11,7 @@ const Footer = () => {
         <a
           href="https://konbinicode.com"
           target="_blank"
-          className="inline-flex items-center gap-2 text-lg duration-300 ease-in-out hover:font-semibold hover:brightness-150"
+          className="inline-flex items-center gap-2 text-sm duration-300 ease-in-out hover:font-semibold hover:brightness-150"
         >
           <Image alt="Konbini Web" src="/imgs/logo.webp" width={32} height={32} quality={75} sizes="32px" />
           Foz do Iguaçu | Brasil.
@@ -35,9 +34,9 @@ const Footer = () => {
       <div className="absolute bottom-2 right-4">
         <a
           href="#"
-          className="inline-flex opacity-80 duration-200 ease-in-out hover:-rotate-45 hover:scale-125 hover:opacity-100"
+          className="inline-flex opacity-80 duration-300 ease-in-out hover:-rotate-45 hover:scale-125 hover:opacity-100"
         >
-          <PiArrowCircleUpRightLight className="animate-pulse text-pink-800" size={52} />
+          <PiArrowCircleUpRightLight className="animate-pulse text-pink-800 hover:animate-none" size={50} />
         </a>
       </div>
     </Box>

@@ -4,13 +4,7 @@ import Autoplay from 'embla-carousel-autoplay'
 import Image from 'next/image'
 import * as React from 'react'
 
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from '@/components/ui/shadcn/carousel'
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
 
 import Box from '../bento/Box'
 
@@ -37,16 +31,17 @@ const News = () => {
           {items.map((item, index) => (
             <CarouselItem key={index} className="relative">
               <a href={item.url} target="_blank">
-                <div className="overflow-hidden rounded-xl">
-                  <Image
-                    src={item.image}
-                    alt={item.description}
-                    width={500}
-                    height={300}
-                    quality={85}
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                    className="h-52 w-full rounded-xl object-contain object-top opacity-85 duration-300 ease-in-out hover:scale-90 hover:opacity-100"
-                  />
+                <div className="relative overflow-hidden rounded-xl">
+                  <div className="relative h-52 w-full">
+                    <Image
+                      src={item.image}
+                      alt={item.description}
+                      fill
+                      quality={85}
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      className="rounded-xl object-contain object-center opacity-85 duration-300 ease-in-out hover:scale-90 hover:opacity-100"
+                    />
+                  </div>
                 </div>
               </a>
               <p className="mt-4 text-center text-sm text-foreground opacity-80">
@@ -55,7 +50,7 @@ const News = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <div className="flex justify-end gap-2 pt-1 lg:scale-100">
+        <div className="flex justify-end gap-2 pt-2 lg:scale-100">
           <CarouselPrevious />
           <CarouselNext />
         </div>

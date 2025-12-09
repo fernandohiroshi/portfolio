@@ -2,7 +2,7 @@
 
 import { FaBug, FaInstagram } from 'react-icons/fa'
 
-import { Button } from '@/components/ui/shadcn/button'
+import { Button } from '@/components/ui/button'
 
 export default function GlobalError() {
   return (

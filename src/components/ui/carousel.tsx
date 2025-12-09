@@ -6,7 +6,7 @@ import * as React from 'react'
 
 import { cn } from '@/lib/utils'
 
-import { Button } from '@/components/ui/shadcn/button'
+import { Button } from '@/components/ui/button'
 
 type CarouselApi = UseEmblaCarouselType[1]
 type UseCarouselParameters = Parameters<typeof useEmblaCarousel>

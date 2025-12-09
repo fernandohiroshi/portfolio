@@ -61,6 +61,7 @@ const securityHeaders = [
 ]
 
 const nextConfig: NextConfig = {
+  devIndicators: false,
   images: {
     remotePatterns: [],
     formats: ['image/webp', 'image/avif'],
