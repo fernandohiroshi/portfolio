@@ -14,8 +14,8 @@ export function BackgroundBeamsSection() {
         style={{ textDecoration: 'none' }}
       >
         <BackgroundBeams className="transition-all duration-300 hover:scale-90">
-          <h2 className="relative z-20 animate-pulse text-center font-sans text-4xl font-bold tracking-tight text-black dark:text-white md:text-5xl lg:text-5xl">
-            KONBINI CODE <span className="text-pink-500">0.2</span>
+          <h2 className="relative z-20 animate-pulse text-center font-sans text-4xl font-bold tracking-tight text-pink-500 dark:text-white md:text-3xl lg:text-4xl">
+            KONBINI CODE
           </h2>
         </BackgroundBeams>
       </a>

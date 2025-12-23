@@ -1,79 +1,88 @@
 'use client'
 
 import Image from 'next/image'
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 
 import { certifications } from '@/lib/certifications-data'
-
-import { Card } from '@/components/ui/card'
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog'
+import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog'
 
 export default function CertificationsPage() {
   const [open, setOpen] = useState(false)
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null)
 
-  const selectedCert = selectedSlug ? (certifications.find((cert) => cert.slug === selectedSlug) ?? null) : null
+  const selectedCert = useMemo(
+    () => (selectedSlug ? (certifications.find((cert) => cert.slug === selectedSlug) ?? null) : null),
+    [selectedSlug],
+  )
 
   return (
-    <div className="relative flex flex-col items-center p-8">
-      <h1 className="mb-6 w-full max-w-4xl text-3xl font-bold">Minhas Certificações</h1>
+    <main className="mx-auto my-4 min-h-screen max-w-4xl scroll-mt-24 px-4" id="certifications">
+      <header className="flex flex-col gap-2 py-4">
+        <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">Minhas Certificações</h1>
+        <p className="max-w-2xl text-sm text-muted-foreground dark:text-muted-foreground">
+          Alguns dos cursos e formações que concluí ao longo da minha jornada como desenvolvedor.
+        </p>
+      </header>
 
-      <div className="grid w-full max-w-4xl grid-cols-2 gap-4 md:grid-cols-3">
-        {certifications.map((cert) => (
-          <button
-            key={cert.slug}
-            type="button"
-            className="block h-full text-left focus:outline-none"
-            title="Ver Certificado"
-            onClick={() => {
-              setSelectedSlug(cert.slug)
-              setOpen(true)
-            }}
-          >
-            <Card className="h-full rounded-lg border transition-all duration-200 hover:scale-95 hover:brightness-110">
-              <Image
-                src={cert.img}
-                alt={`Certificado ${cert.slug}`}
-                width={500}
-                height={400}
-                quality={85}
-                className="object-fit h-36 w-full rounded-lg sm:h-48 md:h-56"
-                sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-              />
-            </Card>
-          </button>
-        ))}
+      <div className="grid gap-6 sm:grid-cols-2">
+        {certifications.map((cert) => {
+          return (
+            <button
+              key={cert.slug}
+              type="button"
+              className="group relative block h-full max-w-lg text-left outline-none transition-transform duration-200 hover:-translate-y-1 focus-visible:-translate-y-1 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+              onClick={() => {
+                setSelectedSlug(cert.slug)
+                setOpen(true)
+              }}
+              title="Ver certificado"
+            >
+              <div className="relative flex h-fit w-full flex-col overflow-hidden rounded-lg border bg-foreground/10 p-4 shadow-sm backdrop-blur-md dark:bg-muted/80">
+                <div className="relative h-56 w-full overflow-hidden rounded-md sm:h-64">
+                  <Image
+                    src={cert.img}
+                    alt={cert.title ?? cert.slug}
+                    fill
+                    priority={false}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-fit transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+              </div>
+              <p className="mt-2 text-center text-sm font-semibold leading-tight tracking-tight">{cert.title}</p>
+            </button>
+          )
+        })}
       </div>
 
       <Dialog
         open={open}
         onOpenChange={(nextOpen) => {
           setOpen(nextOpen)
+
           if (!nextOpen) {
             setSelectedSlug(null)
           }
         }}
       >
-        <DialogContent className="max-w-5xl">
-          <DialogHeader>
-            <DialogTitle>Certificado</DialogTitle>
-          </DialogHeader>
-
+        <DialogContent className="h-[85vh] max-w-[95vw] overflow-hidden border-0 bg-background/95 p-0 sm:h-[85vh] sm:max-w-[90vw] sm:px-4 sm:py-6 lg:max-w-[80vw]">
           {selectedCert && (
-            <div className="flex w-full justify-center">
-              <Image
-                src={selectedCert.img}
-                alt={`Certificação ${selectedCert.slug}`}
-                width={1600}
-                height={1200}
-                quality={85}
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 70vw"
-                className="h-auto max-h-[70vh] w-full max-w-4xl rounded-lg object-contain shadow"
-              />
+            <div className="flex h-full w-full flex-col items-center justify-center px-3 py-4 sm:px-0">
+              <DialogTitle className="sr-only">{selectedCert.title ?? selectedCert.slug}</DialogTitle>
+
+              <div className="relative h-full w-full overflow-hidden rounded-2xl bg-black/90">
+                <Image
+                  src={selectedCert.img}
+                  alt={selectedCert.title ?? selectedCert.slug}
+                  fill
+                  sizes="100vw"
+                  className="object-contain"
+                />
+              </div>
             </div>
           )}
         </DialogContent>
       </Dialog>
-    </div>
+    </main>
   )
 }
