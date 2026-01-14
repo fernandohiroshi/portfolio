@@ -21,19 +21,19 @@ const chartConfig = {
     label: 'Level :',
   },
   br: {
-    label: 'Portuguese',
+    label: 'Português',
     color: 'hsl(var(--chart-1))',
   },
   jp: {
-    label: 'Japanese',
+    label: 'Japonês',
     color: 'hsl(var(--chart-2))',
   },
   en: {
-    label: 'English',
+    label: 'Inglês',
     color: 'hsl(var(--chart-3))',
   },
   es: {
-    label: 'Spanish',
+    label: 'Espanhol',
     color: 'hsl(var(--chart-4))',
   },
 } satisfies ChartConfig
@@ -42,7 +42,7 @@ const Languages = () => {
   return (
     <Box className="col-span-12 border-none bg-transparent md:col-span-4">
       <Card>
-        <h2 className="text-xl font-medium tracking-widest md:text-2xl">Languages:</h2>
+        <h2 className="text-xl font-medium tracking-widest md:text-2xl">Idiomas:</h2>
         <CardContent>
           <ChartContainer id="languages" config={chartConfig}>
             <BarChart
@@ -61,7 +61,7 @@ const Languages = () => {
                 axisLine={false}
                 tickFormatter={(value) => chartConfig[value as keyof typeof chartConfig]?.label}
               />
-              <XAxis dataKey="visitors" type="number" />
+              <XAxis dataKey="visitors" type="number" className="font-serif" />
               <ChartTooltip cursor={false} content={<ChartTooltipContent hideLabel />} />
               <Bar dataKey="visitors" layout="vertical" radius={5} />
             </BarChart>

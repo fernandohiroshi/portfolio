@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { useMemo, useState } from 'react'
 
 import { certifications } from '@/lib/certifications-data'
+
 import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog'
 
 export default function CertificationsPage() {
@@ -41,7 +42,7 @@ export default function CertificationsPage() {
                 <div className="relative h-56 w-full overflow-hidden rounded-md sm:h-64">
                   <Image
                     src={cert.img}
-                    alt={cert.title ?? cert.slug}
+                    alt={cert.slug}
                     fill
                     priority={false}
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -49,7 +50,6 @@ export default function CertificationsPage() {
                   />
                 </div>
               </div>
-              <p className="mt-2 text-center text-sm font-semibold leading-tight tracking-tight">{cert.title}</p>
             </button>
           )
         })}
@@ -65,19 +65,13 @@ export default function CertificationsPage() {
           }
         }}
       >
-        <DialogContent className="h-[85vh] max-w-[95vw] overflow-hidden border-0 bg-background/95 p-0 sm:h-[85vh] sm:max-w-[90vw] sm:px-4 sm:py-6 lg:max-w-[80vw]">
+        <DialogContent className="h-[85vh] max-w-[95vw] overflow-hidden border-0 bg-background p-0 sm:h-[85vh] sm:max-w-[90vw] sm:px-4 sm:py-6 lg:max-w-[80vw]">
           {selectedCert && (
             <div className="flex h-full w-full flex-col items-center justify-center px-3 py-4 sm:px-0">
-              <DialogTitle className="sr-only">{selectedCert.title ?? selectedCert.slug}</DialogTitle>
+              <DialogTitle className="sr-only">{selectedCert.slug}</DialogTitle>
 
-              <div className="relative h-full w-full overflow-hidden rounded-2xl bg-black/90">
-                <Image
-                  src={selectedCert.img}
-                  alt={selectedCert.title ?? selectedCert.slug}
-                  fill
-                  sizes="100vw"
-                  className="object-contain"
-                />
+              <div className="relative h-full w-full overflow-hidden rounded-2xl bg-background">
+                <Image src={selectedCert.img} alt={selectedCert.slug} fill sizes="100vw" className="object-contain" />
               </div>
             </div>
           )}
