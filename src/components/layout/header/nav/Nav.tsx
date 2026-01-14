@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { FaCircleUser } from 'react-icons/fa6'
 import { FiGithub, FiInstagram, FiLinkedin, FiMenu, FiPhone } from 'react-icons/fi'
-import { IoIosCodeWorking, IoIosMail, IoIosPaper, IoIosRibbon } from 'react-icons/io'
+import { IoIosCodeWorking, IoIosMail, IoIosRibbon } from 'react-icons/io'
 
 import { Button } from '@/components/ui/button'
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
@@ -12,7 +12,6 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/co
 const navLinks = [
   { href: '/#about', label: 'Sobre', Icon: FaCircleUser },
   { href: '/projects', label: 'Projetos', Icon: IoIosCodeWorking },
-  { href: '/resume', label: 'Currículo', Icon: IoIosPaper },
   { href: '/certifications', label: 'Certificações', Icon: IoIosRibbon },
   { href: '/#contact', label: 'Contato', Icon: IoIosMail },
 ]

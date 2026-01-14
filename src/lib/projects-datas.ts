@@ -9,7 +9,7 @@ export const projects = [
   },
   {
     img: '/projects/konbinicode0.2.webp',
-    name: 'Konbini Code 0.2',
+    name: 'Konbini Code',
     code: 'https://github.com/fernandohiroshi/KC-V2',
     live: 'https://konbinicode.com/',
     codeBtn: true,
@@ -45,14 +45,6 @@ export const projects = [
     code: '',
     live: 'https://konbinicoderestaurante.vercel.app/',
     codeBtn: false,
-    liveBtn: true,
-  },
-  {
-    img: '/projects/autoway.webp',
-    name: 'Autoway Marketplace',
-    code: 'https://github.com/fernandohiroshi/autoway-marketplace',
-    live: 'https://autoway-marketplace.vercel.app/',
-    codeBtn: true,
     liveBtn: true,
   },
 ]
