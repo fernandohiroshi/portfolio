@@ -16,6 +16,22 @@ export const projects = [
     liveBtn: true,
   },
   {
+    img: '/projects/sanity-blog.webp',
+    name: 'FullStack Blog - Sanity',
+    code: 'https://github.com/fernandohiroshi/sanity-nextjs16-full-blog',
+    live: 'https://sanity-nextjs16-full-blog.vercel.app/',
+    codeBtn: true,
+    liveBtn: true,
+  },
+  {
+    img: '/projects/email-classifier.webp',
+    name: 'Email classifier (IA)',
+    code: 'https://github.com/fernandohiroshi/email-classifier',
+    live: 'https://email-classifier-by-fernando-hirosh.vercel.app/',
+    codeBtn: true,
+    liveBtn: true,
+  },
+  {
     img: '/projects/nestjs.webp',
     name: 'NestJS CRUD',
     code: 'https://github.com/fernandohiroshi/nestjs-crud',
