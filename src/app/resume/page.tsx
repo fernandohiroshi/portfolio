@@ -230,34 +230,35 @@ export default function ResumePage() {
 
             <li>
               <a
-                href="https://konbinicodeacademia.vercel.app/"
+                href="https://sanity-nextjs16-full-blog.vercel.app/"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="group inline-flex flex-col gap-0.5 rounded-md border border-transparent px-1 py-1 transition-colors hover:border-border hover:bg-foreground/5"
               >
-                <span className="font-medium text-foreground">Landing page academia / Gym</span>
+                <span className="font-medium text-foreground">FullStack Blog – Sanity (CMS)</span>
                 <span className="text-xs text-muted-foreground">
-                  Next.js, TypeScript • Landing page focada para academia.
+                  Next.js, TypeScript, Sanity • Blog full-stack com CMS headless, rotas dinâmicas e interface
+                  responsiva.
                 </span>
                 <span className="text-xs text-pink-500 group-hover:underline">
-                  https://konbinicodeacademia.vercel.app/
+                  https://sanity-nextjs16-full-blog.vercel.app/
                 </span>
               </a>
             </li>
 
             <li>
               <a
-                href="https://konbinicoderestaurante.vercel.app/"
+                href="https://email-classifier-by-fernando-hirosh.vercel.app/"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="group inline-flex flex-col gap-0.5 rounded-md border border-transparent px-1 py-1 transition-colors hover:border-border hover:bg-foreground/5"
               >
-                <span className="font-medium text-foreground">Landing page restaurante</span>
+                <span className="font-medium text-foreground">Email classifier (IA)</span>
                 <span className="text-xs text-muted-foreground">
-                  Next.js, TypeScript • Landing page para restaurante com foco em apresentação de cardápio e serviços.
+                  Next.js, TypeScript, IA generativa • Classificador de e-mails com API de IA para análise de conteúdo.
                 </span>
                 <span className="text-xs text-pink-500 group-hover:underline">
-                  https://konbinicoderestaurante.vercel.app/
+                  https://email-classifier-by-fernando-hirosh.vercel.app/
                 </span>
               </a>
             </li>
