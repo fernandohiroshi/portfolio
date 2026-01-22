@@ -13,6 +13,7 @@ const navLinks = [
   { href: '/#about', label: 'Sobre', Icon: FaCircleUser },
   { href: '/projects', label: 'Projetos', Icon: IoIosCodeWorking },
   { href: '/certifications', label: 'Certificações', Icon: IoIosRibbon },
+  { href: '/resume', label: 'Resume', Icon: IoIosRibbon },
   { href: '/#contact', label: 'Contato', Icon: IoIosMail },
 ]
 
