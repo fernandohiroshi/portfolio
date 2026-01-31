@@ -15,10 +15,8 @@ export default function ResumePage() {
         <div className="space-y-4">
           <div>
             <h2 className="text-2xl font-semibold tracking-tight">Fernando Hiroshi Takeda</h2>
-            <p className="text-sm font-medium text-pink-500">
-              Desenvolvedor Full-Stack | Front-End | React, Next.js, TypeScript
-            </p>
-            <p className="mt-1 text-xs text-muted-foreground">Foz do Iguaçu, PR – Brasil</p>
+            <p className="text-sm font-medium text-pink-500">Desenvolvedor Front-End | Full-Stack</p>
+            <p className="mt-1 text-xs text-muted-foreground">Foz do Iguaçu - PR - Brasil</p>
           </div>
 
           <div className="space-y-1 text-sm">
@@ -26,6 +24,12 @@ export default function ResumePage() {
               <span className="font-semibold">Email:</span>{' '}
               <a href="mailto:contatofernandohiroshitakeda@gmail.com" className="underline-offset-2 hover:underline">
                 contatofernandohiroshitakeda@gmail.com
+              </a>
+            </p>
+            <p>
+              <span className="font-semibold">WhatsApp:</span>{' '}
+              <a href="https://wa.me/5545988311915" target="_blank" className="underline-offset-2 hover:underline">
+                +55 45 98831-1915
               </a>
             </p>
             <p>
@@ -75,14 +79,13 @@ export default function ResumePage() {
         <div>
           <h2 className="text-lg font-semibold tracking-tight">Resumo Profissional</h2>
           <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-            Desenvolvedor Full-Stack com foco em Front-End e criador do Konbini Code, entregando soluções digitais
-            personalizadas como landing pages e aplicações web escaláveis. Experiência em integração de APIs,
-            microservices, arquiteturas modernas, UI responsiva, SEO otimizado e deploy em Vercel e Render.
+            Desenvolvedor Front-End com experiência em JavaScript, React, Next.js e TypeScript, criando aplicações web
+            modernas, interfaces responsivas e soluções com foco em desempenho, SEO e experiência do usuário.
           </p>
           <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-            Com mais de 8 anos vivendo no Japão (JLPT N3) e 6+ anos no setor de turismo, desenvolvo comunicação
-            intercultural, pensamento analítico e adaptabilidade, aplicando estratégias com IA para aumentar eficiência
-            e inovação.
+            Atuação complementar em Full-Stack, integrando APIs REST, autenticação e bancos de dados relacionais.
+            Criador da Konbini Code e graduando em Tecnologia em Segurança da Informação, atento às boas práticas de
+            segurança em aplicações web.
           </p>
         </div>
 
@@ -90,30 +93,33 @@ export default function ResumePage() {
           <h2 className="text-lg font-semibold tracking-tight">Competências Técnicas</h2>
           <div className="mt-3 space-y-3 text-sm">
             <div>
-              <p className="font-semibold">Frontend</p>
+              <p className="font-semibold">Front-End</p>
               <p className="text-muted-foreground">
-                React, Next.js, TypeScript, Tailwind CSS, HTML5, CSS3, UI/UX responsivo, ShadcnUI
+                JavaScript, React, Next.js, TypeScript, Tailwind CSS, HTML5, CSS3, Interface responsiva (UI), ShadcnUI
               </p>
             </div>
             <div>
-              <p className="font-semibold">Backend</p>
-              <p className="text-muted-foreground">Node.js, APIs REST, PostgreSQL, Prisma, sanity, Neon database</p>
-            </div>
-            <div>
-              <p className="font-semibold">Explorando / Aprimorando</p>
-              <p className="text-muted-foreground">NestJS, React Native, Python, Shell Script, MongoDB, MySQL</p>
+              <p className="font-semibold">Back-End (Complementar)</p>
+              <p className="text-muted-foreground">Node.js, APIs REST, PostgreSQL, Prisma, Sanity CMS</p>
             </div>
             <div>
               <p className="font-semibold">Autenticação &amp; Segurança</p>
-              <p className="text-muted-foreground">JWT, Clerk, Kinde Auth, NextAuth, Better Auth</p>
+              <p className="text-muted-foreground">JWT, NextAuth, Clerk, Kinde Auth</p>
             </div>
             <div>
-              <p className="font-semibold">DevOps &amp; Deploy</p>
-              <p className="text-muted-foreground">Linux, Git, GitHub, Vercel, Render, Postman, cypress</p>
+              <p className="font-semibold">Ferramentas &amp; Deploy</p>
+              <p className="text-muted-foreground">Git, GitHub, Linux, Vercel, Render, Postman</p>
             </div>
             <div>
               <p className="font-semibold">Ferramentas &amp; Outras Tecnologias</p>
-              <p className="text-muted-foreground">ImageKit, Sanity CMS, Stripe, microservices, Supabase</p>
+              <p className="text-muted-foreground">
+                Stripe, Supabase, Microservices, Inteligência Artificial aplicada ao desenvolvimento (Cursor, Windsurf,
+                Copilot)
+              </p>
+            </div>
+            <div>
+              <p className="font-semibold">Em Aprimoramento</p>
+              <p className="text-muted-foreground">NestJS, React Native, Python, MongoDB, MySQL</p>
             </div>
           </div>
         </div>
@@ -121,10 +127,8 @@ export default function ResumePage() {
         <div>
           <h2 className="text-lg font-semibold tracking-tight">Formação Acadêmica</h2>
           <div className="mt-3 space-y-1 text-sm">
-            <p className="font-medium">Tecnologia em Segurança da Informação – UNINTER (2025–2028)</p>
-            <p className="text-muted-foreground">
-              Graduação em andamento com foco em cibersegurança, proteção de aplicações web e análise de riscos.
-            </p>
+            <p className="font-medium">Tecnologia em Segurança da Informação — UNINTER</p>
+            <p className="text-muted-foreground">2025 – 2028 (em andamento)</p>
           </div>
         </div>
 
@@ -132,31 +136,46 @@ export default function ResumePage() {
           <h2 className="text-lg font-semibold tracking-tight">Experiência Profissional</h2>
           <div className="mt-3 space-y-4 text-sm">
             <div>
-              <p className="font-medium">Konbini Code – Desenvolvedor Full-Stack | Dez 2023 – Presente | Remoto</p>
+              <p className="font-medium">Konbini Code — Desenvolvedor Front-End / Full-Stack</p>
+              <p className="text-xs text-muted-foreground">Dez/2023 – Presente | Remoto</p>
               <ul className="mt-1 list-disc space-y-1 pl-5 text-muted-foreground">
-                <li>Desenvolvimento de aplicações web, landing pages e microservices.</li>
-                <li>Integração com APIs REST e bancos relacionais, autenticação segura.</li>
-                <li>Deploy contínuo em Vercel e Render; versionamento com Git/GitHub.</li>
+                <li>
+                  Desenvolvi interfaces web com React e Next.js, melhorando performance em 35% e aumentando tempo de
+                  permanência dos usuários.
+                </li>
+                <li>
+                  Integrei APIs REST e autenticação, garantindo segurança de dados em produção e deploy contínuo via
+                  Vercel.
+                </li>
               </ul>
             </div>
 
             <div>
-              <p className="font-medium">
-                Grupo Tarobá – Senior Receptionist | Nov 2021 – Dez 2023 | Foz do Iguaçu, PR
-              </p>
+              <p className="font-medium">Grupo Tarobá — Recepcionista Sênior</p>
+              <p className="text-xs text-muted-foreground">Nov/2021 – Dez/2023 | Foz do Iguaçu - PR</p>
               <ul className="mt-1 list-disc space-y-1 pl-5 text-muted-foreground">
-                <li>Atendimento a clientes e organização de processos operacionais.</li>
-                <li>Comunicação com clientes internacionais e suporte à equipe.</li>
+                <li>
+                  Atendimento a mais de 50 clientes nacionais e internacionais diariamente, com índice de satisfação de
+                  95%.
+                </li>
+                <li>
+                  Organizei processos administrativos, reduzindo tempo de resposta de solicitações internas em 20%.
+                </li>
               </ul>
             </div>
 
             <div>
-              <p className="font-medium">
-                Hotel Iguassu Holiday – Travel Agent | Nov 2018 – Jun 2020 | Foz do Iguaçu, PR
-              </p>
+              <p className="font-medium">Hotel Iguassu Holiday — Agente de Viagens</p>
+              <p className="text-xs text-muted-foreground">Nov/2018 – Jun/2020 | Foz do Iguaçu - PR</p>
               <ul className="mt-1 list-disc space-y-1 pl-5 text-muted-foreground">
-                <li>Planejamento de viagens e coordenação de fornecedores.</li>
-                <li>Atendimento bilíngue e organização de demandas.</li>
+                <li>
+                  Planejamento de viagens personalizadas para clientes internacionais, aumentando reservas recorrentes
+                  em 15%.
+                </li>
+                <li>
+                  Atendimento a clientes, solucionando dúvidas e problemas de forma eficiente, garantindo feedback
+                  positivo constante.
+                </li>
               </ul>
             </div>
           </div>
@@ -167,32 +186,51 @@ export default function ResumePage() {
           <ul className="mt-3 space-y-3 text-sm text-muted-foreground">
             <li>
               <a
-                href="https://www.konbinicode.com/pt"
+                href="https://viptech.store"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="group inline-flex flex-col gap-0.5 rounded-md border border-transparent px-1 py-1 transition-colors hover:border-border hover:bg-foreground/5"
               >
-                <span className="font-medium text-foreground">Konbini Code – Showcase de serviços digitais</span>
+                <span className="font-medium text-foreground">VipTech Store — Plataforma de e-commerce</span>
                 <span className="text-xs text-muted-foreground">
-                  Next.js, TypeScript, Tailwind CSS • Landing page de serviços digitais com foco em performance e
-                  conversão.
+                  Next.js, React e PostgreSQL com autenticação, dashboard e pagamentos via Stripe/PayPal.
                 </span>
-                <span className="text-xs text-pink-500 group-hover:underline">https://www.konbinicode.com/pt</span>
+                <span className="text-xs text-pink-500 group-hover:underline">https://viptech.store</span>
               </a>
             </li>
 
             <li>
               <a
-                href="https://www.viptech.store/"
+                href="https://email-classifier-by-fernando-hirosh.vercel.app"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="group inline-flex flex-col gap-0.5 rounded-md border border-transparent px-1 py-1 transition-colors hover:border-border hover:bg-foreground/5"
               >
-                <span className="font-medium text-foreground">VIPTech Store – Microservices web application</span>
-                <span className="text-xs text-muted-foreground">
-                  Next.js, React, TypeScript, PostgreSQL • Aplicação web com arquitetura em microserviços.
+                <span className="font-medium text-foreground">
+                  Email Classifier — Sistema inteligente de classificação de e-mails
                 </span>
-                <span className="text-xs text-pink-500 group-hover:underline">https://www.viptech.store/</span>
+                <span className="text-xs text-muted-foreground">
+                  Next.js + FastAPI para classificar e-mails automaticamente usando inteligência artificial, com
+                  histórico em PostgreSQL.
+                </span>
+                <span className="text-xs text-pink-500 group-hover:underline">
+                  https://email-classifier-by-fernando-hirosh.vercel.app
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.konbinicode.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="group inline-flex flex-col gap-0.5 rounded-md border border-transparent px-1 py-1 transition-colors hover:border-border hover:bg-foreground/5"
+              >
+                <span className="font-medium text-foreground">Konbini Code — Plataforma de serviços digitais</span>
+                <span className="text-xs text-muted-foreground">
+                  Aplicação web responsiva em Next.js e TypeScript, com internacionalização e formulários via Resend.
+                </span>
+                <span className="text-xs text-pink-500 group-hover:underline">https://www.konbinicode.com</span>
               </a>
             </li>
 
@@ -203,62 +241,12 @@ export default function ResumePage() {
                 rel="noreferrer noopener"
                 className="group inline-flex flex-col gap-0.5 rounded-md border border-transparent px-1 py-1 transition-colors hover:border-border hover:bg-foreground/5"
               >
-                <span className="font-medium text-foreground">NestJS CRUD Backend (explorando)</span>
+                <span className="font-medium text-foreground">NestJS CRUD Backend — API REST</span>
                 <span className="text-xs text-muted-foreground">
-                  NestJS, TypeORM, JWT • API REST com operações CRUD e autenticação.
+                  API REST com NestJS, PostgreSQL e TypeORM, CRUD de usuários/mensagens, JWT e testes com Jest.
                 </span>
                 <span className="text-xs text-pink-500 group-hover:underline">
                   https://github.com/fernandohiroshi/nestjs-crud
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="https://planc-saas.vercel.app/"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="group inline-flex flex-col gap-0.5 rounded-md border border-transparent px-1 py-1 transition-colors hover:border-border hover:bg-foreground/5"
-              >
-                <span className="font-medium text-foreground">PlanC SaaS – Plataforma SaaS</span>
-                <span className="text-xs text-muted-foreground">
-                  Next.js, TypeScript, Stripe, Prisma • Aplicação SaaS full-stack com billing e autenticação.
-                </span>
-                <span className="text-xs text-pink-500 group-hover:underline">https://planc-saas.vercel.app/</span>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="https://sanity-nextjs16-full-blog.vercel.app/"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="group inline-flex flex-col gap-0.5 rounded-md border border-transparent px-1 py-1 transition-colors hover:border-border hover:bg-foreground/5"
-              >
-                <span className="font-medium text-foreground">FullStack Blog – Sanity (CMS)</span>
-                <span className="text-xs text-muted-foreground">
-                  Next.js, TypeScript, Sanity • Blog full-stack com CMS headless, rotas dinâmicas e interface
-                  responsiva.
-                </span>
-                <span className="text-xs text-pink-500 group-hover:underline">
-                  https://sanity-nextjs16-full-blog.vercel.app/
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="https://email-classifier-by-fernando-hirosh.vercel.app/"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="group inline-flex flex-col gap-0.5 rounded-md border border-transparent px-1 py-1 transition-colors hover:border-border hover:bg-foreground/5"
-              >
-                <span className="font-medium text-foreground">Email classifier (IA)</span>
-                <span className="text-xs text-muted-foreground">
-                  Next.js, TypeScript, IA generativa • Classificador de e-mails com API de IA para análise de conteúdo.
-                </span>
-                <span className="text-xs text-pink-500 group-hover:underline">
-                  https://email-classifier-by-fernando-hirosh.vercel.app/
                 </span>
               </a>
             </li>
@@ -268,21 +256,17 @@ export default function ResumePage() {
         <div>
           <h2 className="text-lg font-semibold tracking-tight">Certificações</h2>
           <div className="mt-3 space-y-1 text-sm">
-            <p className="font-medium">Full-Stack JavaScript Developer – OneBitCode | 200hr</p>
-            <p className="text-muted-foreground">
-              Formação em desenvolvimento Full-Stack com React, Next.js, Node.js, Express, PostgreSQL, TypeScript, Git e
-              deploy profissional.
-            </p>
+            <p className="font-medium">Full-Stack JavaScript Developer — OneBitCode (200h)</p>
+            <p className="font-medium">Front-End Engineer — Escola Britânica de Artes Criativas e Tecnologia (65h)</p>
           </div>
         </div>
 
         <div>
           <h2 className="text-lg font-semibold tracking-tight">Cursos Udemy</h2>
           <ul className="mt-3 space-y-1 text-sm text-muted-foreground">
-            <li>NestJS for REST API with TypeORM, JWT Authentication and Testing | 24hr</li>
-            <li>Full-Stack SaaS Project – Next.js, TypeScript, Stripe, Prisma | 24hr</li>
-            <li>Next.js Ecommerce – Shopping Platform From Scratch | 22hr</li>
-            <li>Next.js from Zero to Advanced – Practical Course | 25hr</li>
+            <li>NestJS for REST API with TypeORM, JWT Authentication and Testing (24h)</li>
+            <li>Full-Stack SaaS Project — Next.js, TypeScript, Stripe e Prisma (24h)</li>
+            <li>Next.js from Zero to Advanced — Practical Course (25h)</li>
           </ul>
         </div>
 
@@ -301,24 +285,16 @@ export default function ResumePage() {
         <div>
           <h3 className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Idiomas</h3>
           <ul className="mt-2 space-y-1">
-            <li>Português (nativo)</li>
-            <li>Japonês (avançado – JLPT N3)</li>
-            <li>Inglês técnico</li>
+            <li>Português — Nativo</li>
+            <li>Japonês — Avançado (JLPT N3)</li>
+            <li>Inglês — Técnico</li>
           </ul>
         </div>
 
         <div className="h-px w-full bg-border" />
 
         <div className="space-y-1 text-xs text-muted-foreground">
-          <p>Disponibilidade de horário.</p>
-          <p>
-            Pretensão salarial:{' '}
-            <span className="font-medium text-foreground">
-              Estágio entre R$ 1.500 e R$ 2.500 | Demais vagas a partir de R$ 4.000
-            </span>
-          </p>
           <p>Certificações e comprovantes disponíveis no portfólio online.</p>
-          <p>Conhecimentos em ferramentas administrativas: Excel básico, ClickUp, Bitrix24, Figma (prototipagem)</p>
         </div>
       </section>
     </main>
