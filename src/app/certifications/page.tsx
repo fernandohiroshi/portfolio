@@ -1,5 +1,6 @@
 'use client'
 
+import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import { useMemo, useState } from 'react'
 
@@ -10,6 +11,7 @@ import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog'
 export default function CertificationsPage() {
   const [open, setOpen] = useState(false)
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null)
+  const t = useTranslations('CertificationsPage')
 
   const selectedCert = useMemo(
     () => (selectedSlug ? (certifications.find((cert) => cert.slug === selectedSlug) ?? null) : null),
@@ -19,10 +21,8 @@ export default function CertificationsPage() {
   return (
     <main className="mx-auto my-4 min-h-screen max-w-4xl scroll-mt-24 px-4" id="certifications">
       <header className="flex flex-col gap-2 py-4">
-        <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">Minhas Certificações</h1>
-        <p className="max-w-2xl text-sm text-muted-foreground dark:text-muted-foreground">
-          Alguns dos cursos e formações que concluí ao longo da minha jornada como desenvolvedor.
-        </p>
+        <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">{t('title')}</h1>
+        <p className="max-w-2xl text-sm text-muted-foreground dark:text-muted-foreground">{t('subtitle')}</p>
       </header>
 
       <div className="grid gap-6 sm:grid-cols-2">
@@ -36,7 +36,7 @@ export default function CertificationsPage() {
                 setSelectedSlug(cert.slug)
                 setOpen(true)
               }}
-              title="Ver certificado"
+              title={t('viewCertificateTitle')}
             >
               <div className="relative flex h-fit w-full flex-col overflow-hidden rounded-lg border bg-foreground/10 p-4 shadow-sm backdrop-blur-md dark:bg-muted/80">
                 <div className="relative h-56 w-full overflow-hidden rounded-md sm:h-64">

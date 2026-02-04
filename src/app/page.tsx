@@ -1,3 +1,5 @@
+import { getTranslations } from 'next-intl/server'
+
 import Footer from '@/components/layout/footer/Footer'
 import About from '@/components/view/about/About'
 import Animation from '@/components/view/animation/Animation'
@@ -9,7 +11,9 @@ import Languages from '@/components/view/languages/Languages'
 import News from '@/components/view/news/News'
 import Skills from '@/components/view/skills/Skills'
 
-export default function Home() {
+export default async function Home() {
+  const t = await getTranslations('Common')
+
   return (
     <main className="my-4 min-h-screen scroll-mt-24 px-4" id="home">
       <div className="mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-4">
@@ -25,7 +29,7 @@ export default function Home() {
         <Footer />
       </div>
       <p className="mt-8 text-center text-xs opacity-80 lg:text-sm">
-        © {`${new Date().getFullYear()}`} Fernando Hiroshi. All rights reserved.
+        {t('copyright', { year: new Date().getFullYear() })}
       </p>
     </main>
   )

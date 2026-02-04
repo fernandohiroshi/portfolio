@@ -1,4 +1,6 @@
 import './globals.css'
+import { NextIntlClientProvider } from 'next-intl'
+import { getLocale, getMessages } from 'next-intl/server'
 import { Raleway } from 'next/font/google'
 import { Metadata } from 'next/types'
 import { Toaster } from 'react-hot-toast'
@@ -104,18 +106,24 @@ export const metadata: Metadata = {
     images: ['/imgs/metadata.webp'],
   },
 }
-export default function RootLayout({
+
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const locale = await getLocale()
+  const messages = await getMessages()
+
   return (
-    <html lang="pt-BR" suppressHydrationWarning className="!scroll-smooth">
+    <html lang={locale} suppressHydrationWarning className="!scroll-smooth">
       <body className={`${raleway.className} antialiased`}>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
-          <Header />
-          {children}
-        </ThemeProvider>
+        <NextIntlClientProvider messages={messages} locale={locale}>
+          <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+            <Header />
+            {children}
+          </ThemeProvider>
+        </NextIntlClientProvider>
         <Toaster position="top-right" />
       </body>
     </html>

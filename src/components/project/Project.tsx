@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import { useState } from 'react'
 
@@ -12,6 +13,7 @@ import Box from '@/components/view/bento/Box'
 
 const Project = () => {
   const [hoveringIndex, setHoveringIndex] = useState<number | null>(null)
+  const t = useTranslations('Project')
 
   return (
     <>
@@ -43,14 +45,14 @@ const Project = () => {
                 {p.codeBtn && (
                   <a href={p.code} target="_blank">
                     <Button variant="outline" size="sm">
-                      Código
+                      {t('code')}
                     </Button>
                   </a>
                 )}
                 {p.liveBtn && (
                   <a href={p.live} target="_blank">
                     <Button variant="outline" size="sm">
-                      Site
+                      {t('live')}
                     </Button>
                   </a>
                 )}

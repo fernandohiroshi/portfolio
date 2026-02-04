@@ -1,13 +1,16 @@
+import { getTranslations } from 'next-intl/server'
 import Image from 'next/image'
 
 import Box from '../bento/Box'
 
-const Animation = () => {
+const Animation = async () => {
+  const t = await getTranslations('Media')
+
   return (
     <Box className="col-span-12 bg-transparent md:col-span-4">
       <Image
         src="/animation.gif"
-        alt="GIF de Animação"
+        alt={t('animationAlt')}
         width={600}
         height={600}
         sizes="(max-width: 768px) 100vw, 400px"

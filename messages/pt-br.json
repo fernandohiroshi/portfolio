@@ -1,0 +1,259 @@
+{
+  "Common": {
+    "copyright": "© {year} Fernando Hiroshi. Todos os direitos reservados."
+  },
+  "Header": {
+    "logoTitle": "Logo",
+    "logoAlt": "Logo"
+  },
+  "Nav": {
+    "menuButtonTitle": "Menu de Navegação",
+    "menuTitle": "Menu de Navegação",
+    "socialTitle": "Social",
+    "links": {
+      "about": "Sobre",
+      "projects": "Projetos",
+      "certifications": "Certificações",
+      "resume": "Resumo",
+      "contact": "Contato"
+    },
+    "social": {
+      "githubAria": "GitHub de Fernando Hiroshi",
+      "linkedinAria": "LinkedIn de Fernando Hiroshi",
+      "instagramAria": "Instagram de Fernando Hiroshi",
+      "whatsappAria": "WhatsApp de Fernando Hiroshi"
+    }
+  },
+  "Feature": {
+    "hey": "Hey!",
+    "line1": "Me chamo Hirøshi",
+    "line2Prefix": "Transformo",
+    "ideas": "ideias",
+    "line3": "em experiências digitais.",
+    "subtitle": "Crio sites e apps modernos e com aquele toque underground",
+    "githubTitle": "Github",
+    "githubLabel": "Github",
+    "linkedinTitle": "Linkedin",
+    "linkedinLabel": "Linkedin"
+  },
+  "About": {
+    "title": "Sobre mim:",
+    "description": "Desenvolvedor Full-Stack com foco em Front-End e idealizador da Konbini Code, criando soluções digitais personalizadas com Next.js, Tailwind CSS, TypeScript, Node.js e PostgreSQL, com deploys otimizados na Vercel. Atualmente curso Segurança da Informação, aplicando conceitos de cibersegurança em projetos reais. Experimento stacks como React Native, NestJS, Python, Linux e ferramentas de ethical hacking. Com vivência de 8 anos no Japão e 6 no turismo, desenvolvi habilidades interpessoais, adaptabilidade e pensamento analítico, sempre buscando aprendizado contínuo e uso estratégico de inteligência artificial."
+  },
+  "Card3D": {
+    "linkTitle": "Página de Projetos",
+    "label": "Projetos"
+  },
+  "Languages": {
+    "title": "Idiomas:",
+    "levelLabel": "Level :",
+    "labels": {
+      "pt": "Português",
+      "ja": "Japonês",
+      "en": "Inglês",
+      "es": "Espanhol"
+    }
+  },
+  "News": {
+    "items": {
+      "nestjsCrud": "Aplicação CRUD construída com NestJS.",
+      "viptechStore": "E-commerce desenvolvido com Next.js e TypeScript."
+    }
+  },
+  "Footer": {
+    "konbiniAlt": "Konbini Web",
+    "location": "Foz do Iguaçu | Brasil.",
+    "instagram": "Instagram",
+    "whatsapp": "Whatsapp"
+  },
+  "ProjectsPage": {
+    "title": "Projetos"
+  },
+  "CertificationsPage": {
+    "title": "Minhas Certificações",
+    "subtitle": "Alguns dos cursos e formações que concluí ao longo da minha jornada como desenvolvedor.",
+    "viewCertificateTitle": "Ver certificado"
+  },
+  "Error": {
+    "title": "Ocorreu um erro inesperado",
+    "description": "Algo deu errado ao carregar esta página. O site pode estar em manutenção. Por favor, entre em contato comigo se o problema persistir.",
+    "instagramCta": "Contato via Instagram"
+  },
+  "Theme": {
+    "toggle": "Alternar tema"
+  },
+  "Media": {
+    "avatarAlt": "Fernando Hiroshi",
+    "animationAlt": "GIF de Animação"
+  },
+  "ResumePage": {
+    "header": {
+      "title": "Resumo",
+      "subtitle": "Visão geral da minha experiência profissional, formação, competências técnicas e projetos relevantes."
+    },
+    "profile": {
+      "name": "Fernando Hiroshi Takeda",
+      "role": "Desenvolvedor Front-End | Full-Stack",
+      "location": "Foz do Iguaçu - PR - Brasil",
+      "photoAlt": "Foto de Fernando Hiroshi Takeda",
+      "contacts": {
+        "emailLabel": "Email:",
+        "whatsappLabel": "WhatsApp:",
+        "portfolioLabel": "Portfolio:",
+        "githubLabel": "GitHub:",
+        "linkedinLabel": "LinkedIn:"
+      }
+    },
+    "summary": {
+      "title": "Resumo Profissional",
+      "paragraph1": "Desenvolvedor Front-End com experiência em JavaScript, React, Next.js e TypeScript, criando aplicações web modernas, interfaces responsivas e soluções com foco em desempenho, SEO e experiência do usuário.",
+      "paragraph2": "Atuação complementar em Full-Stack, integrando APIs REST, autenticação e bancos de dados relacionais. Criador da Konbini Code e graduando em Tecnologia em Segurança da Informação, atento às boas práticas de segurança em aplicações web."
+    },
+    "skills": {
+      "title": "Competências Técnicas",
+      "frontend": {
+        "title": "Front-End",
+        "items": "JavaScript, React, Next.js, TypeScript, Tailwind CSS, HTML5, CSS3, Interface responsiva (UI), ShadcnUI"
+      },
+      "backend": {
+        "title": "Back-End (Complementar)",
+        "items": "Node.js, APIs REST, PostgreSQL, Prisma, Sanity CMS"
+      },
+      "security": {
+        "title": "Autenticação & Segurança",
+        "items": "JWT, NextAuth, Clerk, Kinde Auth"
+      },
+      "toolsDeploy": {
+        "title": "Ferramentas & Deploy",
+        "items": "Git, GitHub, Linux, Vercel, Render, Postman"
+      },
+      "other": {
+        "title": "Ferramentas & Outras Tecnologias",
+        "items": "Stripe, Supabase, Microservices, Inteligência Artificial aplicada ao desenvolvimento (Cursor, Windsurf, Copilot)"
+      },
+      "improving": {
+        "title": "Em Aprimoramento",
+        "items": "NestJS, React Native, Python, MongoDB, MySQL"
+      }
+    },
+    "education": {
+      "title": "Formação Acadêmica",
+      "degree": "Tecnologia em Segurança da Informação — UNINTER",
+      "period": "2025 – 2028 (em andamento)"
+    },
+    "experience": {
+      "title": "Experiência Profissional",
+      "konbini": {
+        "role": "Konbini Code — Desenvolvedor Front-End / Full-Stack",
+        "period": "Dez/2023 – Presente | Remoto",
+        "bullets": [
+          "Desenvolvi interfaces web com React e Next.js, melhorando performance em 35% e aumentando tempo de permanência dos usuários.",
+          "Integrei APIs REST e autenticação, garantindo segurança de dados em produção e deploy contínuo via Vercel."
+        ]
+      },
+      "taroba": {
+        "role": "Grupo Tarobá — Recepcionista Sênior",
+        "period": "Nov/2021 – Dez/2023 | Foz do Iguaçu - PR",
+        "bullets": [
+          "Atendimento a mais de 50 clientes nacionais e internacionais diariamente, com índice de satisfação de 95%.",
+          "Organizei processos administrativos, reduzindo tempo de resposta de solicitações internas em 20%."
+        ]
+      },
+      "iguassu": {
+        "role": "Hotel Iguassu Holiday — Agente de Viagens",
+        "period": "Nov/2018 – Jun/2020 | Foz do Iguaçu - PR",
+        "bullets": [
+          "Planejamento de viagens personalizadas para clientes internacionais, aumentando reservas recorrentes em 15%.",
+          "Atendimento a clientes, solucionando dúvidas e problemas de forma eficiente, garantindo feedback positivo constante."
+        ]
+      }
+    },
+    "projects": {
+      "title": "Projetos Relevantes",
+      "items": {
+        "viptech": {
+          "title": "VipTech Store — Plataforma de e-commerce",
+          "subtitle": "Next.js, React e PostgreSQL com autenticação, dashboard e pagamentos via Stripe/PayPal."
+        },
+        "emailClassifier": {
+          "title": "Email Classifier — Sistema inteligente de classificação de e-mails",
+          "subtitle": "Next.js + FastAPI para classificar e-mails automaticamente usando inteligência artificial, com histórico em PostgreSQL."
+        },
+        "konbini": {
+          "title": "Konbini Code — Plataforma de serviços digitais",
+          "subtitle": "Aplicação web responsiva em Next.js e TypeScript, com internacionalização e formulários via Resend."
+        },
+        "nestCrud": {
+          "title": "NestJS CRUD Backend — API REST",
+          "subtitle": "API REST com NestJS, PostgreSQL e TypeORM, CRUD de usuários/mensagens, JWT e testes com Jest."
+        }
+      }
+    },
+    "certifications": {
+      "title": "Certificações",
+      "items": [
+        "Full-Stack JavaScript Developer — OneBitCode (200h)",
+        "Front-End Engineer — Escola Britânica de Artes Criativas e Tecnologia (65h)"
+      ]
+    },
+    "udemy": {
+      "title": "Cursos Udemy",
+      "items": [
+        "NestJS for REST API with TypeORM, JWT Authentication and Testing (24h)",
+        "Full-Stack SaaS Project — Next.js, TypeScript, Stripe e Prisma (24h)",
+        "Next.js from Zero to Advanced — Practical Course (25h)"
+      ]
+    },
+    "footerNote": {
+      "prefix": "Para detalhes adicionais, certificados e demonstrações dos projetos, acesse o",
+      "linkLabel": "portfólio completo",
+      "suffix": "."
+    },
+    "languages": {
+      "title": "Idiomas",
+      "items": ["Português — Nativo", "Japonês — Avançado (JLPT N3)", "Inglês — Técnico"],
+      "note": "Certificações e comprovantes disponíveis no portfólio online."
+    }
+  },
+  "Project": {
+    "code": "Código",
+    "live": "Site"
+  },
+  "Skills": {
+    "items": {
+      "PostgreSQL": "PostgreSQL",
+      "Prisma": "Prisma",
+      "TypeScript": "TypeScript",
+      "Node": "Node",
+      "Next JS": "Next JS",
+      "Nestjs": "Nestjs",
+      "React": "React",
+      "Tailwind": "Tailwind",
+      "Linux": "Linux"
+    }
+  },
+  "Tweet": {
+    "notFound": "Tweet não encontrado",
+    "linkToTweet": "Link para o tweet",
+    "verifiedAccountAria": "Conta verificada",
+    "profilePictureTitle": "Foto de perfil de {name}",
+    "photoByTitle": "Foto por {name}",
+    "videoNotSupported": "Seu navegador não suporta a tag de vídeo."
+  },
+  "Ui": {
+    "close": "Fechar",
+    "carousel": {
+      "previousSlide": "Slide anterior",
+      "nextSlide": "Próximo slide"
+    },
+    "localeToggle": {
+      "ariaLabel": "Alternar idioma",
+      "title": "Alternar idioma",
+      "ptBr": "PT",
+      "ja": "JA"
+    }
+  },
+  "NotFound": {
+    "title": "Esta página não existe."
+  }
+}

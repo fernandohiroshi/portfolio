@@ -1,6 +1,7 @@
 'use client'
 
 import { motion, useMotionTemplate, useMotionValue, useSpring } from 'framer-motion'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import React, { useRef } from 'react'
 
@@ -19,6 +20,7 @@ const HALF_ROTATION_RANGE = 32.5 / 2
 
 const TiltCard = () => {
   const ref = useRef<HTMLDivElement | null>(null)
+  const t = useTranslations('Card3D')
 
   const x = useMotionValue(0)
   const y = useMotionValue(0)
@@ -64,7 +66,7 @@ const TiltCard = () => {
     >
       <Link
         href="/projects"
-        title="Página de Projetos"
+        title={t('linkTitle')}
         style={{
           transform: 'translateZ(75px)',
           transformStyle: 'preserve-3d',
@@ -77,7 +79,7 @@ const TiltCard = () => {
           }}
           className="animate-pulse text-center text-2xl font-semibold uppercase"
         >
-          Projetos
+          {t('label')}
         </h2>
       </Link>
     </motion.div>

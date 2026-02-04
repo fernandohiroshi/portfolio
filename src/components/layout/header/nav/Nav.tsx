@@ -1,5 +1,6 @@
 'use client'
 
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import { useState } from 'react'
 import { FaCircleUser } from 'react-icons/fa6'
@@ -9,46 +10,47 @@ import { IoIosCodeWorking, IoIosMail, IoIosRibbon } from 'react-icons/io'
 import { Button } from '@/components/ui/button'
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
 
-const navLinks = [
-  { href: '/#about', label: 'Sobre', Icon: FaCircleUser },
-  { href: '/projects', label: 'Projetos', Icon: IoIosCodeWorking },
-  { href: '/certifications', label: 'Certificações', Icon: IoIosRibbon },
-  { href: '/resume', label: 'Resume', Icon: IoIosRibbon },
-  { href: '/#contact', label: 'Contato', Icon: IoIosMail },
-]
-
-const socialLinks = [
-  {
-    href: 'https://github.com/fernandohiroshi',
-    label: 'GitHub de Fernando Hiroshi',
-    Icon: FiGithub,
-  },
-  {
-    href: 'https://www.linkedin.com/in/fernando-hiroshi',
-    label: 'LinkedIn de Fernando Hiroshi',
-    Icon: FiLinkedin,
-  },
-  {
-    href: 'https://www.instagram.com/seu_usuario',
-    label: 'Instagram de Fernando Hiroshi',
-    Icon: FiInstagram,
-  },
-  {
-    href: 'https://wa.me/seu_numero',
-    label: 'WhatsApp de Fernando Hiroshi',
-    Icon: FiPhone,
-  },
-]
-
 export function Nav() {
   const [open, setOpen] = useState(false)
+  const t = useTranslations('Nav')
+
+  const navLinks = [
+    { href: '/#about', label: t('links.about'), Icon: FaCircleUser },
+    { href: '/projects', label: t('links.projects'), Icon: IoIosCodeWorking },
+    { href: '/certifications', label: t('links.certifications'), Icon: IoIosRibbon },
+    { href: '/resume', label: t('links.resume'), Icon: IoIosRibbon },
+    { href: '/#contact', label: t('links.contact'), Icon: IoIosMail },
+  ]
+
+  const socialLinks = [
+    {
+      href: 'https://github.com/fernandohiroshi',
+      label: t('social.githubAria'),
+      Icon: FiGithub,
+    },
+    {
+      href: 'https://www.linkedin.com/in/fernando-hiroshi',
+      label: t('social.linkedinAria'),
+      Icon: FiLinkedin,
+    },
+    {
+      href: 'https://www.instagram.com/seu_usuario',
+      label: t('social.instagramAria'),
+      Icon: FiInstagram,
+    },
+    {
+      href: 'https://wa.me/seu_numero',
+      label: t('social.whatsappAria'),
+      Icon: FiPhone,
+    },
+  ]
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
         <Button
           className="flex items-center gap-2 rounded-md px-3 py-2 transition-colors"
-          title="Menu de Navegação"
+          title={t('menuButtonTitle')}
           size="default"
           variant="outline"
         >
@@ -58,7 +60,7 @@ export function Nav() {
 
       <SheetContent side="right" className="flex flex-col gap-6">
         <SheetHeader>
-          <SheetTitle>Menu de Navegação</SheetTitle>
+          <SheetTitle>{t('menuTitle')}</SheetTitle>
         </SheetHeader>
 
         <nav className="flex flex-col gap-4">
@@ -75,7 +77,7 @@ export function Nav() {
         </nav>
 
         <div className="mt-auto flex items-center justify-between gap-4 border-t border-border/40 pt-4">
-          <span className="text-xs font-medium uppercase tracking-wide text-muted-foreground">Social</span>
+          <span className="text-xs font-medium uppercase tracking-wide text-muted-foreground">{t('socialTitle')}</span>
           <div className="flex items-center gap-3 text-muted-foreground">
             {socialLinks.map(({ href, label, Icon }) => (
               <a

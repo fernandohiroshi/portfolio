@@ -1,13 +1,16 @@
+import { getTranslations } from 'next-intl/server'
 import Image from 'next/image'
 
 import Box from '../bento/Box'
 
-const Avatar = () => {
+const Avatar = async () => {
+  const t = await getTranslations('Media')
+
   return (
     <Box className="col-span-12 overflow-hidden p-0 md:col-span-4">
       <Image
         src="/imgs/me.webp"
-        alt="Fernando Hiroshi"
+        alt={t('avatarAlt')}
         quality={85}
         width={600}
         height={600}

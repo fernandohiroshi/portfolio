@@ -1,0 +1,259 @@
+{
+  "Common": {
+    "copyright": "© {year} Fernando Hiroshi. All rights reserved."
+  },
+  "Header": {
+    "logoTitle": "ロゴ",
+    "logoAlt": "ロゴ"
+  },
+  "Nav": {
+    "menuButtonTitle": "ナビゲーションメニュー",
+    "menuTitle": "ナビゲーションメニュー",
+    "socialTitle": "ソーシャル",
+    "links": {
+      "about": "概要",
+      "projects": "プロジェクト",
+      "certifications": "認定",
+      "resume": "レジュメ",
+      "contact": "お問い合わせ"
+    },
+    "social": {
+      "githubAria": "Fernando Hiroshi のGitHub",
+      "linkedinAria": "Fernando Hiroshi のLinkedIn",
+      "instagramAria": "Fernando Hiroshi のInstagram",
+      "whatsappAria": "Fernando Hiroshi のWhatsApp"
+    }
+  },
+  "Feature": {
+    "hey": "Hello!",
+    "line1": "Hirøshiです",
+    "line2Prefix": "",
+    "ideas": "アイデア",
+    "line3": "をデジタル体験へ。",
+    "subtitle": "モダンなWebサイトとアプリを、少しアンダーグラウンドな雰囲気で作ります",
+    "githubTitle": "GitHub",
+    "githubLabel": "GitHub",
+    "linkedinTitle": "LinkedIn",
+    "linkedinLabel": "LinkedIn"
+  },
+  "About": {
+    "title": "私について：",
+    "description": "フロントエンドを軸にしたフルスタック開発者として、Konbini Codeの立ち上げ・運営を行い、Next.js、Tailwind CSS、TypeScript、Node.js、PostgreSQLで最適化されたデジタルソリューションを提供しています。現在は情報セキュリティを学び、実プロジェクトにサイバーセキュリティの考え方を取り入れています。React Native、NestJS、Python、Linux、エシカルハッキング系ツールも試しながら学習中です。日本で8年、観光業で6年の経験を通じて、対人スキル、適応力、分析的思考を培い、継続的な学習とAIの戦略的活用を大切にしています。"
+  },
+  "Card3D": {
+    "linkTitle": "プロジェクトページ",
+    "label": "プロジェクト"
+  },
+  "Languages": {
+    "title": "言語：",
+    "levelLabel": "レベル：",
+    "labels": {
+      "pt": "ポルトガル語",
+      "ja": "日本語",
+      "en": "英語",
+      "es": "スペイン語"
+    }
+  },
+  "News": {
+    "items": {
+      "nestjsCrud": "NestJSで構築したCRUDアプリケーション。",
+      "viptechStore": "Next.jsとTypeScriptで開発したECサイト。"
+    }
+  },
+  "Footer": {
+    "konbiniAlt": "Konbini Web",
+    "location": "ブラジル | フォス・ド・イグアス。",
+    "instagram": "Instagram",
+    "whatsapp": "WhatsApp"
+  },
+  "ProjectsPage": {
+    "title": "プロジェクト"
+  },
+  "CertificationsPage": {
+    "title": "取得した認定",
+    "subtitle": "開発者としての道のりで修了したコースや学習内容の一部です。",
+    "viewCertificateTitle": "証明書を見る"
+  },
+  "Error": {
+    "title": "予期しないエラーが発生しました",
+    "description": "このページの読み込み中に問題が発生しました。サイトがメンテナンス中の可能性があります。問題が続く場合はご連絡ください。",
+    "instagramCta": "Instagramで連絡する"
+  },
+  "Theme": {
+    "toggle": "テーマを切り替える"
+  },
+  "Media": {
+    "avatarAlt": "Fernando Hiroshi",
+    "animationAlt": "アニメーションGIF"
+  },
+  "ResumePage": {
+    "header": {
+      "title": "レジュメ",
+      "subtitle": "職務経験、学歴、技術スキル、関連プロジェクトの概要。"
+    },
+    "profile": {
+      "name": "Fernando Hiroshi Takeda",
+      "role": "フロントエンド開発者 | フルスタック",
+      "location": "ブラジル・パラナ州フォス・ド・イグアス",
+      "photoAlt": "Fernando Hiroshi Takeda の写真",
+      "contacts": {
+        "emailLabel": "メール：",
+        "whatsappLabel": "WhatsApp：",
+        "portfolioLabel": "ポートフォリオ：",
+        "githubLabel": "GitHub：",
+        "linkedinLabel": "LinkedIn："
+      }
+    },
+    "summary": {
+      "title": "職務要約",
+      "paragraph1": "JavaScript、React、Next.js、TypeScriptを用いたフロントエンド開発の経験があり、モダンなWebアプリケーション、レスポンシブUI、パフォーマンス・SEO・UXを重視した実装を行います。",
+      "paragraph2": "加えて、REST API連携、認証、リレーショナルDBの取り扱いなどフルスタック領域も対応します。Konbini Codeの創設者であり、情報セキュリティを専攻中。Webアプリのセキュリティベストプラクティスにも注意を払っています。"
+    },
+    "skills": {
+      "title": "技術スキル",
+      "frontend": {
+        "title": "フロントエンド",
+        "items": "JavaScript, React, Next.js, TypeScript, Tailwind CSS, HTML5, CSS3, レスポンシブUI, ShadcnUI"
+      },
+      "backend": {
+        "title": "バックエンド（補助）",
+        "items": "Node.js, REST API, PostgreSQL, Prisma, Sanity CMS"
+      },
+      "security": {
+        "title": "認証・セキュリティ",
+        "items": "JWT, NextAuth, Clerk, Kinde Auth"
+      },
+      "toolsDeploy": {
+        "title": "ツール・デプロイ",
+        "items": "Git, GitHub, Linux, Vercel, Render, Postman"
+      },
+      "other": {
+        "title": "その他",
+        "items": "Stripe, Supabase, Microservices, 開発におけるAI活用（Cursor, Windsurf, Copilot）"
+      },
+      "improving": {
+        "title": "学習中",
+        "items": "NestJS, React Native, Python, MongoDB, MySQL"
+      }
+    },
+    "education": {
+      "title": "学歴",
+      "degree": "情報セキュリティ技術 — UNINTER",
+      "period": "2025–2028（在学中）"
+    },
+    "experience": {
+      "title": "職務経験",
+      "konbini": {
+        "role": "Konbini Code — フロントエンド / フルスタック開発者",
+        "period": "2023/12–現在 | リモート",
+        "bullets": [
+          "ReactとNext.jsでWebインターフェースを開発し、パフォーマンスを35%改善、滞在時間の向上に貢献。",
+          "REST APIと認証を統合し、本番環境のデータ保護を担保。Vercelで継続的デプロイを実施。"
+        ]
+      },
+      "taroba": {
+        "role": "Grupo Tarobá — シニア受付",
+        "period": "2021/11–2023/12 | フォス・ド・イグアス（PR）",
+        "bullets": [
+          "国内外の顧客を1日50名以上対応し、満足度95%を達成。",
+          "事務プロセスを整理し、社内依頼の対応時間を20%短縮。"
+        ]
+      },
+      "iguassu": {
+        "role": "Hotel Iguassu Holiday — 旅行手配",
+        "period": "2018/11–2020/06 | フォス・ド・イグアス（PR）",
+        "bullets": [
+          "海外顧客向けに旅行をカスタマイズして提案し、リピート予約を15%増加。",
+          "問い合わせやトラブルを迅速に解決し、継続的に高評価を獲得。"
+        ]
+      }
+    },
+    "projects": {
+      "title": "主なプロジェクト",
+      "items": {
+        "viptech": {
+          "title": "VipTech Store — ECプラットフォーム",
+          "subtitle": "Next.js/React/PostgreSQL。認証、ダッシュボード、Stripe/PayPal決済を実装。"
+        },
+        "emailClassifier": {
+          "title": "Email Classifier — メール分類システム",
+          "subtitle": "Next.js + FastAPIでAIによる自動分類。PostgreSQLに履歴を保存。"
+        },
+        "konbini": {
+          "title": "Konbini Code — デジタルサービスプラットフォーム",
+          "subtitle": "Next.jsとTypeScriptのレスポンシブWebアプリ。国際化とResend経由のフォームを実装。"
+        },
+        "nestCrud": {
+          "title": "NestJS CRUD Backend — REST API",
+          "subtitle": "NestJS/PostgreSQL/TypeORM。ユーザー・メッセージのCRUD、JWT、Jestテスト。"
+        }
+      }
+    },
+    "certifications": {
+      "title": "認定",
+      "items": [
+        "Full-Stack JavaScript Developer — OneBitCode（200時間）",
+        "Front-End Engineer — 英国クリエイティブアーツ＆テクノロジー学校（65時間）"
+      ]
+    },
+    "udemy": {
+      "title": "Udemyコース",
+      "items": [
+        "NestJS for REST API with TypeORM, JWT Authentication and Testing（24時間）",
+        "Full-Stack SaaS Project — Next.js, TypeScript, Stripe & Prisma（24時間）",
+        "Next.js from Zero to Advanced — Practical Course（25時間）"
+      ]
+    },
+    "footerNote": {
+      "prefix": "詳細、証明書、プロジェクトのデモは",
+      "linkLabel": "完全版ポートフォリオ",
+      "suffix": "をご覧ください。"
+    },
+    "languages": {
+      "title": "言語",
+      "items": ["ポルトガル語 — ネイティブ", "日本語 — 上級（JLPT N3）", "英語 — 技術レベル"],
+      "note": "認定証や証明書はオンラインのポートフォリオで確認できます。"
+    }
+  },
+  "Project": {
+    "code": "コード",
+    "live": "サイト"
+  },
+  "Skills": {
+    "items": {
+      "PostgreSQL": "PostgreSQL",
+      "Prisma": "Prisma",
+      "TypeScript": "TypeScript",
+      "Node": "Node",
+      "Next JS": "Next.js",
+      "Nestjs": "NestJS",
+      "React": "React",
+      "Tailwind": "Tailwind",
+      "Linux": "Linux"
+    }
+  },
+  "Tweet": {
+    "notFound": "ツイートが見つかりません",
+    "linkToTweet": "ツイートへのリンク",
+    "verifiedAccountAria": "認証済みアカウント",
+    "profilePictureTitle": "{name} のプロフィール画像",
+    "photoByTitle": "撮影：{name}",
+    "videoNotSupported": "お使いのブラウザは video タグに対応していません。"
+  },
+  "Ui": {
+    "close": "閉じる",
+    "carousel": {
+      "previousSlide": "前のスライド",
+      "nextSlide": "次のスライド"
+    },
+    "localeToggle": {
+      "ariaLabel": "言語を切り替える",
+      "title": "言語を切り替える",
+      "ptBr": "PT",
+      "ja": "JA"
+    }
+  },
+  "NotFound": {
+    "title": "このページは存在しません。"
+  }
+}

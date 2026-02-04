@@ -1,10 +1,13 @@
+import { getTranslations } from 'next-intl/server'
 import Image from 'next/image'
 import { PiArrowCircleUpRightLight } from 'react-icons/pi'
 
 import { Button } from '@/components/ui/button'
 import Box from '@/components/view/bento/Box'
 
-const Footer = () => {
+const Footer = async () => {
+  const t = await getTranslations('Footer')
+
   return (
     <Box className="relative col-span-12 min-h-[14rem] border-none bg-gradient-to-b from-background to-neutral-300 dark:to-neutral-900">
       <div className="absolute bottom-4 left-4 flex flex-col gap-4" id="contact">
@@ -13,19 +16,19 @@ const Footer = () => {
           target="_blank"
           className="inline-flex items-center gap-2 text-sm duration-300 ease-in-out hover:font-semibold hover:brightness-150"
         >
-          <Image alt="Konbini Web" src="/imgs/logo.webp" width={32} height={32} quality={75} sizes="32px" />
-          Foz do Iguaçu | Brasil.
+          <Image alt={t('konbiniAlt')} src="/imgs/logo.webp" width={32} height={32} quality={75} sizes="32px" />
+          {t('location')}
         </a>
 
         <div className="grid grid-cols-2 items-center gap-4 md:grid-cols-4">
           <a href="https://www.instagram.com/fernando_hiroshi/">
             <Button size="sm" variant="outline" className="w-20">
-              Instagram
+              {t('instagram')}
             </Button>
           </a>
           <a href="https://wa.me/5545988311915">
             <Button size="sm" variant="outline" className="w-20">
-              Whatsapp
+              {t('whatsapp')}
             </Button>
           </a>
         </div>

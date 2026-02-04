@@ -1,6 +1,7 @@
 'use client'
 
 import Autoplay from 'embla-carousel-autoplay'
+import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import * as React from 'react'
 
@@ -9,18 +10,19 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import Box from '../bento/Box'
 
 const News = () => {
+  const t = useTranslations('News')
   const plugin = React.useRef(Autoplay({ delay: 3000, stopOnInteraction: false }))
 
   const items = [
     {
       image: '/projects/nestjs.webp',
       url: 'https://github.com/fernandohiroshi/nestjs-crud',
-      description: 'Aplicação CRUD construída com NestJS.',
+      description: t('items.nestjsCrud'),
     },
     {
       image: '/projects/viptechstore.webp',
       url: 'https://www.viptech.store/',
-      description: 'E-commerce desenvolvido com Next.js e TypeScript.',
+      description: t('items.viptechStore'),
     },
   ]
 

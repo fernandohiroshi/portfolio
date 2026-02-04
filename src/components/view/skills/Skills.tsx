@@ -1,3 +1,4 @@
+import { getTranslations } from 'next-intl/server'
 import { BiLogoTypescript } from 'react-icons/bi'
 import { FaLinux, FaNode } from 'react-icons/fa6'
 import { RiReactjsFill } from 'react-icons/ri'
@@ -12,13 +13,15 @@ const skills = [
   { href: 'https://www.typescriptlang.org/', title: 'TypeScript', Icon: BiLogoTypescript },
   { href: 'https://nodejs.org/', title: 'Node', Icon: FaNode },
   { href: 'https://nextjs.org/', title: 'Next JS', Icon: SiNextdotjs },
-  { href: 'https://nestjs.com/', title: 'Nest.js', Icon: SiNestjs },
+  { href: 'https://nestjs.com/', title: 'Nestjs', Icon: SiNestjs },
   { href: 'https://react.dev/', title: 'React', Icon: RiReactjsFill },
   { href: 'https://tailwindcss.com/', title: 'Tailwind', Icon: SiTailwindcss },
   { href: 'https://ubuntu.com/', title: 'Linux', Icon: FaLinux },
 ]
 
-const Skills = () => {
+const Skills = async () => {
+  const t = await getTranslations('Skills')
+
   return (
     <Box className="col-span-12 flex w-full items-center justify-center md:col-span-4">
       <div className="grid grid-cols-3 gap-10">
@@ -29,7 +32,7 @@ const Skills = () => {
             href={href}
             target="_blank"
           >
-            <Icon size={40} title={title} />
+            <Icon size={40} title={t(`items.${title}`)} />
           </a>
         ))}
       </div>

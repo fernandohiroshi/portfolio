@@ -1,5 +1,6 @@
 'use client'
 
+import { useTranslations } from 'next-intl'
 import { Bar, BarChart, XAxis, YAxis } from 'recharts'
 
 import { Card, CardContent } from '@/components/ui/card'
@@ -16,33 +17,35 @@ const chartData = [
   { browser: 'es', visitors: 20, fill: 'var(--color-es)' },
 ]
 
-const chartConfig = {
-  visitors: {
-    label: 'Level :',
-  },
-  br: {
-    label: 'Português',
-    color: 'hsl(var(--chart-1))',
-  },
-  jp: {
-    label: 'Japonês',
-    color: 'hsl(var(--chart-2))',
-  },
-  en: {
-    label: 'Inglês',
-    color: 'hsl(var(--chart-3))',
-  },
-  es: {
-    label: 'Espanhol',
-    color: 'hsl(var(--chart-4))',
-  },
-} satisfies ChartConfig
-
 const Languages = () => {
+  const t = useTranslations('Languages')
+
+  const chartConfig = {
+    visitors: {
+      label: t('levelLabel'),
+    },
+    br: {
+      label: t('labels.pt'),
+      color: 'hsl(var(--chart-1))',
+    },
+    jp: {
+      label: t('labels.ja'),
+      color: 'hsl(var(--chart-2))',
+    },
+    en: {
+      label: t('labels.en'),
+      color: 'hsl(var(--chart-3))',
+    },
+    es: {
+      label: t('labels.es'),
+      color: 'hsl(var(--chart-4))',
+    },
+  } satisfies ChartConfig
+
   return (
     <Box className="col-span-12 border-none bg-transparent md:col-span-4">
       <Card>
-        <h2 className="text-xl font-medium tracking-widest md:text-2xl">Idiomas:</h2>
+        <h2 className="text-xl font-medium tracking-widest md:text-2xl">{t('title')}</h2>
         <CardContent>
           <ChartContainer id="languages" config={chartConfig}>
             <BarChart

@@ -2,6 +2,7 @@
 
 import { ArrowLeftIcon, ArrowRightIcon } from '@radix-ui/react-icons'
 import useEmblaCarousel, { type UseEmblaCarouselType } from 'embla-carousel-react'
+import { useTranslations } from 'next-intl'
 import * as React from 'react'
 
 import { cn } from '@/lib/utils'
@@ -171,6 +172,7 @@ CarouselItem.displayName = 'CarouselItem'
 const CarouselPrevious = React.forwardRef<HTMLButtonElement, React.ComponentProps<typeof Button>>(
   ({ className, variant = 'outline', size = 'icon', ...props }, ref) => {
     const { orientation, scrollPrev } = useCarousel()
+    const t = useTranslations('Ui')
 
     return (
       <Button
@@ -182,7 +184,7 @@ const CarouselPrevious = React.forwardRef<HTMLButtonElement, React.ComponentProp
         {...props}
       >
         <ArrowLeftIcon className="h-4 w-4" />
-        <span className="sr-only">Previous slide</span>
+        <span className="sr-only">{t('carousel.previousSlide')}</span>
       </Button>
     )
   },
@@ -192,6 +194,7 @@ CarouselPrevious.displayName = 'CarouselPrevious'
 const CarouselNext = React.forwardRef<HTMLButtonElement, React.ComponentProps<typeof Button>>(
   ({ className, variant = 'outline', size = 'icon', ...props }, ref) => {
     const { orientation, scrollNext } = useCarousel()
+    const t = useTranslations('Ui')
 
     return (
       <Button
@@ -203,7 +206,7 @@ const CarouselNext = React.forwardRef<HTMLButtonElement, React.ComponentProps<ty
         {...props}
       >
         <ArrowRightIcon className="h-4 w-4" />
-        <span className="sr-only">Next slide</span>
+        <span className="sr-only">{t('carousel.nextSlide')}</span>
       </Button>
     )
   },
