@@ -2,13 +2,14 @@
 
 import { motion } from 'framer-motion'
 import { useTranslations } from 'next-intl'
+import dynamic from 'next/dynamic'
 import Image from 'next/image'
 import Link from 'next/link'
 
 import { LocaleToggle } from '@/components/i18n/LocaleToggle'
 import { ThemeToggle } from '@/components/theme/ThemeToggle'
 
-import { Nav } from './nav/Nav'
+const Nav = dynamic(() => import('./nav/Nav').then((mod) => mod.Nav), { ssr: false })
 
 const Header = () => {
   const t = useTranslations('Header')

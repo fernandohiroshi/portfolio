@@ -21,12 +21,12 @@ const Footer = async () => {
         </a>
 
         <div className="grid grid-cols-2 items-center gap-4 md:grid-cols-4">
-          <a href="https://www.instagram.com/fernando_hiroshi/">
+          <a href="https://www.instagram.com/fernando_hiroshi/" target="_blank" rel="noopener noreferrer">
             <Button size="sm" variant="outline" className="w-20">
               {t('instagram')}
             </Button>
           </a>
-          <a href="https://wa.me/5545988311915">
+          <a href="https://wa.me/5545988311915" target="_blank" rel="noopener noreferrer">
             <Button size="sm" variant="outline" className="w-20">
               {t('whatsapp')}
             </Button>
@@ -39,7 +39,7 @@ const Footer = async () => {
           href="#"
           className="inline-flex opacity-80 duration-300 ease-in-out hover:-rotate-45 hover:scale-125 hover:opacity-100"
         >
-          <PiArrowCircleUpRightLight className="animate-pulse text-pink-800 hover:animate-none" size={50} />
+          <PiArrowCircleUpRightLight className="animate-pulse text-pink-500 hover:animate-none" size={50} />
         </a>
       </div>
     </Box>

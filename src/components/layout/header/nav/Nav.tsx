@@ -18,7 +18,6 @@ export function Nav() {
     { href: '/#about', label: t('links.about'), Icon: FaCircleUser },
     { href: '/projects', label: t('links.projects'), Icon: IoIosCodeWorking },
     { href: '/certifications', label: t('links.certifications'), Icon: IoIosRibbon },
-    { href: '/resume', label: t('links.resume'), Icon: IoIosRibbon },
     { href: '/#contact', label: t('links.contact'), Icon: IoIosMail },
   ]
 

@@ -24,6 +24,11 @@ const News = () => {
       url: 'https://www.viptech.store/',
       description: t('items.viptechStore'),
     },
+    {
+      image: '/projects/github-hunter.webp',
+      url: 'https://githubhunter.vercel.app/',
+      description: t('items.githubHunter'),
+    },
   ]
 
   return (

@@ -8,6 +8,15 @@ export const projects = [
     liveBtn: true,
   },
   {
+    img: '/projects/github-hunter.webp',
+    name: 'Github Hunter',
+    code: 'https://github.com/fernandohiroshi/github-hunter',
+    live: 'https://githubhunter.vercel.app/',
+    codeBtn: true,
+    liveBtn: true,
+  },
+
+  {
     img: '/projects/konbinicode0.2.webp',
     name: 'Konbini Code',
     code: 'https://github.com/fernandohiroshi/KC-V2',
@@ -20,14 +29,6 @@ export const projects = [
     name: 'FullStack Blog - Sanity',
     code: 'https://github.com/fernandohiroshi/sanity-nextjs16-full-blog',
     live: 'https://sanity-nextjs16-full-blog.vercel.app/',
-    codeBtn: true,
-    liveBtn: true,
-  },
-  {
-    img: '/projects/email-classifier.webp',
-    name: 'Email classifier (IA)',
-    code: 'https://github.com/fernandohiroshi/email-classifier',
-    live: 'https://email-classifier-by-fernando-hirosh.vercel.app/',
     codeBtn: true,
     liveBtn: true,
   },
@@ -49,7 +50,7 @@ export const projects = [
   },
   {
     img: '/projects/gym.webp',
-    name: 'Landing page Gym',
+    name: 'Landing page #01',
     code: '',
     live: 'https://konbinicodeacademia.vercel.app/',
     codeBtn: false,
@@ -57,7 +58,7 @@ export const projects = [
   },
   {
     img: '/projects/restaurante.webp',
-    name: 'Landing page Restaurante',
+    name: 'Landing page #02',
     code: '',
     live: 'https://konbinicoderestaurante.vercel.app/',
     codeBtn: false,

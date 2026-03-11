@@ -1,6 +1,6 @@
 ## Portfolio — Fernando Hiroshi
 
-Personal portfolio of **Fernando Hiroshi Takeda**, a Front-End Engineer specialized in **Next.js, React.js, and TypeScript**, also working as a Full-Stack Developer. This project showcases skills, projects, certifications, and resume through a modern, responsive interface focused on performance, SEO, and accessibility.
+Personal portfolio of **Fernando Hiroshi Takeda**, a Front-End Engineer specialized in **Next.js, React.js, and TypeScript**, also working as a Full-Stack Developer. This project showcases skills, projects, and certifications through a modern, responsive interface focused on performance, SEO, and accessibility.
 
 ![Portfolio Preview](/public/imgs/metadata.webp)
 
@@ -22,7 +22,7 @@ This portfolio is built with the **Next.js App Router** and a modern front-end s
 ## 🧱 Core Stack
 
 - **Framework**
-  - [Next.js 15 (App Router)](https://nextjs.org/) — `src/app` with routes for home, projects, resume, and certifications.
+  - [Next.js 15 (App Router)](https://nextjs.org/) — `src/app` with routes for home, projects, and certifications.
   - [React 18](https://react.dev/)
 
 - **Language & Styling**
@@ -59,9 +59,6 @@ Main App Router routes:
 - `/projects` — **Projects**
   - Projects list with cards, screenshots, and links to repositories and/or live demos.
 
-- `/resume` — **Resume**
-  - Web version of the professional resume, including summary, experience, education, and tech stack.
-
 - `/certifications` — **Certifications**
   - Certifications grid powered by `src/lib/certifications-data.ts`.
   - Each item opens a full certificate view in a modal (Dialog) on the same page, without navigating to a separate slug route.
@@ -73,7 +70,7 @@ Main App Router routes:
 - **Header** — `src/components/layout/header/Header.tsx`
   - Logo rendered with `next/image`.
   - `ThemeToggle` for switching between light and dark themes.
-  - Main navigation using a `Sheet` (shadcn/ui) with a menu icon (`FiMenu`) and links to About, Projects, Resume, Certifications, and Contact.
+  - Main navigation using a `Sheet` (shadcn/ui) with a menu icon (`FiMenu`) and links to About, Projects, Certifications, and Contact.
   - _Social_ area with minimal icons (GitHub, LinkedIn, Instagram, WhatsApp).
 
 - **Footer** — `src/components/layout/footer/Footer.tsx`
