@@ -1,7 +1,7 @@
 import { getRequestConfig } from 'next-intl/server'
 import { cookies } from 'next/headers'
 
-const locales = ['pt-br', 'ja'] as const
+const locales = ['pt-br', 'ja', 'en'] as const
 
 function isLocale(value: string): value is (typeof locales)[number] {
   return (locales as readonly string[]).includes(value)

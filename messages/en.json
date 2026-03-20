@@ -1,0 +1,131 @@
+{
+  "Common": {
+    "copyright": "© {year} Fernando Hiroshi. All rights reserved."
+  },
+  "Header": {
+    "logoTitle": "Logo",
+    "logoAlt": "Logo"
+  },
+  "Nav": {
+    "menuButtonTitle": "Navigation Menu",
+    "menuTitle": "Navigation Menu",
+    "socialTitle": "Social",
+    "links": {
+      "about": "About",
+      "projects": "Projects",
+      "certifications": "Certifications",
+      "contact": "Contact"
+    },
+    "social": {
+      "githubAria": "Fernando Hiroshi's GitHub",
+      "linkedinAria": "Fernando Hiroshi's LinkedIn",
+      "instagramAria": "Fernando Hiroshi's Instagram",
+      "whatsappAria": "Fernando Hiroshi's WhatsApp"
+    }
+  },
+  "Feature": {
+    "hey": "Hey!",
+    "line1": "I'm Hirøshi",
+    "line2Prefix": "I transform",
+    "ideas": "ideas",
+    "line3": "into digital experiences.",
+    "subtitle": "I create modern websites and apps with that underground touch",
+    "githubTitle": "Github",
+    "githubLabel": "Github",
+    "linkedinTitle": "Linkedin",
+    "linkedinLabel": "Linkedin"
+  },
+  "About": {
+    "title": "About me:",
+    "description": "Full-Stack Developer with focus on Front-End, solid experience in React, Next.js, TypeScript, Tailwind CSS, Prisma and PostgreSQL. Specialized in landing pages, websites and microsystems, with REST APIs integration, authentication and microservices, prioritizing performance, SEO and accessibility.\n\nLeader of Konbini Code, micro-agency where I develop scalable digital solutions remotely, serving clients with focus on efficiency.\n\nPrevious experience in operations and tourism, with strong ability in adaptation, teamwork and effective communication in multicultural environments. Studying Technology in Information Security, with emphasis on cybersecurity, cryptography and web/mobile security, complementing my work in systems protection."
+  },
+  "Card3D": {
+    "linkTitle": "Projects Page",
+    "label": "Projects"
+  },
+  "Languages": {
+    "title": "Languages:",
+    "levelLabel": "Level :",
+    "labels": {
+      "pt": "Portuguese",
+      "ja": "Japanese",
+      "en": "English",
+      "es": "Spanish"
+    }
+  },
+  "News": {
+    "items": {
+      "nestjsCrud": "CRUD application built with NestJS.",
+      "viptechStore": "E-commerce developed with Next.js and TypeScript.",
+      "githubHunter": "Next.js project consuming GitHub API to search profiles and repositories."
+    }
+  },
+  "Footer": {
+    "konbiniAlt": "Konbini Web",
+    "location": "Foz do Iguaçu | Brazil.",
+    "instagram": "Instagram",
+    "whatsapp": "Whatsapp"
+  },
+  "ProjectsPage": {
+    "title": "Projects"
+  },
+  "CertificationsPage": {
+    "title": "My Certifications",
+    "subtitle": "Some of the courses and trainings I completed throughout my journey as a developer.",
+    "viewCertificateTitle": "View certificate"
+  },
+  "Error": {
+    "title": "An unexpected error occurred",
+    "description": "Something went wrong while loading this page. The site might be under maintenance. Please contact me if the problem persists.",
+    "instagramCta": "Contact via Instagram"
+  },
+  "Theme": {
+    "toggle": "Toggle theme"
+  },
+  "Media": {
+    "avatarAlt": "Fernando Hiroshi",
+    "animationAlt": "Animation GIF"
+  },
+  "Project": {
+    "code": "Code",
+    "live": "Site"
+  },
+  "Skills": {
+    "items": {
+      "PostgreSQL": "PostgreSQL",
+      "Prisma": "Prisma",
+      "TypeScript": "TypeScript",
+      "Node": "Node",
+      "Next JS": "Next JS",
+      "Nestjs": "Nestjs",
+      "React": "React",
+      "Tailwind": "Tailwind",
+      "Linux": "Linux"
+    }
+  },
+  "Tweet": {
+    "notFound": "Tweet not found",
+    "linkToTweet": "Link to tweet",
+    "verifiedAccountAria": "Verified account",
+    "profilePictureTitle": "{name}'s profile picture",
+    "photoByTitle": "Photo by {name}",
+    "videoNotSupported": "Your browser does not support the video tag."
+  },
+  "Ui": {
+    "close": "Close",
+    "carousel": {
+      "previousSlide": "Previous slide",
+      "nextSlide": "Next slide"
+    },
+    "localeToggle": {
+      "ariaLabel": "Toggle language",
+      "title": "Toggle language",
+      "ptBr": "PT",
+      "ja": "JA",
+      "en": "EN"
+    }
+  },
+  "NotFound": {
+    "title": "This page does not exist."
+  }
+}

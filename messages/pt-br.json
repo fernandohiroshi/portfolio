@@ -37,7 +37,7 @@
   },
   "About": {
     "title": "Sobre mim:",
-    "description": "Desenvolvedor Full-Stack com foco em Front-End e criador do Konbini Code, desenvolvendo landing pages e aplicações web com React, Next.js, TypeScript, Tailwind CSS, Node.js, Prisma e PostgreSQL. Trabalho com APIs e deploy na Vercel, com foco em performance, SEO e design responsivo.\n\nAtualmente cursando Segurança da Informação, estou expandindo meus conhecimentos em cibersegurança e proteção de aplicações web, além de explorar NestJS, React Native e Python.\n\nTenho 8+ anos de experiência vivendo no Japão e 6+ anos no setor de turismo, o que me trouxe comunicação intercultural, pensamento analítico e adaptabilidade, sempre focado em aprendizado contínuo e no uso de IA para aumentar eficiência e inovação no desenvolvimento."
+    "description": "Desenvolvedor Full-Stack com foco em Front-End, experiência sólida em React, Next.js, TypeScript, Tailwind CSS, Prisma e PostgreSQL. Especializado em landing pages, websites e microsistemas, com integração de APIs REST, autenticação e microservices, priorizando performance, SEO e acessibilidade.\n\nLíder da Konbini Code, microagência onde desenvolvo soluções digitais escaláveis de forma remota, atendendo clientes com foco em eficiência.\n\nExperiência anterior em operações e turismo, com forte habilidade em adaptação, trabalho em equipe e comunicação eficaz em ambientes multiculturais. Cursando Tecnologia em Segurança da Informação, com ênfase em cibersegurança, criptografia e segurança web/mobile, complementando minha atuação em proteção de sistemas."
   },
   "Card3D": {
     "linkTitle": "Página de Projetos",
@@ -121,7 +121,8 @@
       "ariaLabel": "Alternar idioma",
       "title": "Alternar idioma",
       "ptBr": "PT",
-      "ja": "JA"
+      "ja": "JA",
+      "en": "EN"
     }
   },
   "NotFound": {
