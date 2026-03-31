@@ -12,7 +12,7 @@ const About = async () => {
       <h2 className="mb-2 scroll-mt-24 text-xl font-medium tracking-widest md:text-2xl" id="about">
         {t('title')}
       </h2>
-      <div className="text-justify text-xs text-foreground opacity-90 md:text-sm">
+      <div className="text-justify text-sm text-foreground opacity-90">
         {paragraphs.map((paragraph) => (
           <p key={paragraph} className="mb-3 last:mb-0">
             {paragraph}
