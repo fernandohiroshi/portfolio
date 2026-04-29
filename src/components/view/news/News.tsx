@@ -21,7 +21,7 @@ const News = () => {
     },
     {
       image: '/projects/viptechstore.webp',
-      url: 'https://www.viptech.store/',
+      url: 'https://viptechstore.vercel.app/',
       description: t('items.viptechStore'),
     },
     {

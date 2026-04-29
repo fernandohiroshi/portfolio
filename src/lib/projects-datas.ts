@@ -3,7 +3,7 @@ export const projects = [
     img: '/projects/viptechstore.webp',
     name: 'Vip Tech Store',
     code: 'https://github.com/fernandohiroshi/viptech-store',
-    live: 'https://www.viptech.store/',
+    live: 'https://viptechstore.vercel.app/',
     codeBtn: true,
     liveBtn: true,
   },
