@@ -16,7 +16,6 @@ export const metadata: Metadata = {
     'Fernando Hiroshi Takeda — Front-End Engineer especializado em React e Next.js, atuando como Full-Stack Developer. Trabalho com Next.js, React.js, TypeScript, Tailwind CSS, Node.js, PostgreSQL, Prisma ORM, Sanity CMS e REST APIs, criando landing pages, portfólios e aplicações web otimizadas para performance, SEO e acessibilidade. Tenho experiência com autenticação e infraestrutura usando Next Auth, Better Auth, Clerk, Kinde Auth, Supabase, Neon Database, Vercel, Linux e Shell Script, além de uso estratégico de IA (Cursor, Windsurf, GPT) para acelerar o desenvolvimento. Atualmente estou aprofundando estudos em PHP, Python, MySQL, NestJS, React Native, MongoDB, Payload CMS, Arcjet, Cybersecurity e Ethical Hacking.',
   keywords: [
     'Fernando Hiroshi',
-    'Fernando Hiroshi Takeda',
     'Front-End Engineer',
     'Full-Stack Developer',
     'React',
