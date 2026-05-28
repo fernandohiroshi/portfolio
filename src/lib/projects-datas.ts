@@ -48,20 +48,4 @@ export const projects = [
     codeBtn: true,
     liveBtn: true,
   },
-  {
-    img: '/projects/gym.webp',
-    name: 'Landing page #01',
-    code: '',
-    live: 'https://konbinicodeacademia.vercel.app/',
-    codeBtn: false,
-    liveBtn: true,
-  },
-  {
-    img: '/projects/restaurante.webp',
-    name: 'Landing page #02',
-    code: '',
-    live: 'https://konbinicoderestaurante.vercel.app/',
-    codeBtn: false,
-    liveBtn: true,
-  },
 ]
